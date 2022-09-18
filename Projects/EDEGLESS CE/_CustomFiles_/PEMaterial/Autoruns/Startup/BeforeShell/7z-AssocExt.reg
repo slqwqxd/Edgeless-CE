@@ -1,0 +1,56 @@
+Windows Registry Editor Version 5.00 
+ 
+[HKEY_CLASSES_ROOT\.7z]
+@="7-Zip.7z"
+[HKEY_CLASSES_ROOT\7-Zip.7z]
+@="7z Archive"
+[HKEY_CLASSES_ROOT\7-Zip.7z\DefaultIcon]
+@="X:\\Program Files\\7-Zip\\7z.dll,0"
+[HKEY_CLASSES_ROOT\7-Zip.7z\shell\open\command]
+@="\"X:\\Program Files\\7-Zip\\7zFM.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.zip]
+@="7-Zip.zip"
+[HKEY_CLASSES_ROOT\7-Zip.zip]
+@="zip Archive"
+[HKEY_CLASSES_ROOT\7-Zip.zip\DefaultIcon]
+@="X:\\Program Files\\7-Zip\\7z.dll,1"
+[HKEY_CLASSES_ROOT\7-Zip.zip\shell\open\command]
+@="\"X:\\Program Files\\7-Zip\\7zFM.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.rar]
+@="7-Zip.rar"
+[HKEY_CLASSES_ROOT\7-Zip.rar]
+@="rar Archive"
+[HKEY_CLASSES_ROOT\7-Zip.rar\DefaultIcon]
+@="X:\\Program Files\\7-Zip\\7z.dll,3"
+[HKEY_CLASSES_ROOT\7-Zip.rar\shell\open\command]
+@="\"X:\\Program Files\\7-Zip\\7zFM.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.001]
+@="7-Zip.001"
+[HKEY_CLASSES_ROOT\7-Zip.001]
+@="001 Archive"
+[HKEY_CLASSES_ROOT\7-Zip.001\DefaultIcon]
+@="X:\\Program Files\\7-Zip\\7z.dll,0"
+[HKEY_CLASSES_ROOT\7-Zip.001\shell\open\command]
+@="\"X:\\Program Files\\7-Zip\\7zFM.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.tar]
+@="7-Zip.tar"
+[HKEY_CLASSES_ROOT\7-Zip.tar]
+@="tar Archive"
+[HKEY_CLASSES_ROOT\7-Zip.tar\DefaultIcon]
+@="X:\\Program Files\\7-Zip\\7z.dll,0"
+[HKEY_CLASSES_ROOT\7-Zip.tar\shell\open\command]
+@="\"X:\\Program Files\\7-Zip\\7zFM.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.gz]
+@="7-Zip.gz"
+[HKEY_CLASSES_ROOT\7-Zip.gz]
+@="gz Archive"
+[HKEY_CLASSES_ROOT\7-Zip.gz\DefaultIcon]
+@="X:\\Program Files\\7-Zip\\7z.dll,0"
+[HKEY_CLASSES_ROOT\7-Zip.gz\shell\open\command]
+@="\"X:\\Program Files\\7-Zip\\7zFM.exe\" \"%1\""
+
