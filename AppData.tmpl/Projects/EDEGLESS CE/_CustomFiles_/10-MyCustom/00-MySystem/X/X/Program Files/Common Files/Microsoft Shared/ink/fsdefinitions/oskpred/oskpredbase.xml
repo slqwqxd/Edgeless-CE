@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<KeyDefinitions   modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="10620" modifierName="Prediction1" payloadType="AppEvent" payload="1" />
+<Key  Id="10621" modifierName="Prediction2" payloadType="AppEvent" payload="2" />
+<Key  Id="10622" modifierName="Prediction3" payloadType="AppEvent" payload="3" />
+<Key  Id="10623" modifierName="Prediction4" payloadType="AppEvent" payload="4" />
+<Key  Id="10624" modifierName="Prediction5" payloadType="AppEvent" payload="5" />
+<Key  Id="10625" modifierName="Prediction6" payloadType="AppEvent" payload="6" />
+<Key  Id="10626" modifierName="Prediction7" payloadType="AppEvent" payload="7" />
+<Key  Id="10627" modifierName="Prediction8" payloadType="AppEvent" payload="8" />
+</State> 
+</KeyDefinitions>

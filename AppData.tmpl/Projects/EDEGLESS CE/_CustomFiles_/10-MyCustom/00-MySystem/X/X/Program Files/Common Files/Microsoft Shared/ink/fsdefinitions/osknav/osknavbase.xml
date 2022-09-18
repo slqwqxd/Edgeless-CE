@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<KeyDefinitions modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\KeyDefinitionSchema.xsd">
+  <State modifier="Any">
+    <Key Id="f"  accessibilityName="15031" />
+    <Key Id="1c" accessibilityName="15032" />
+    <Key Id="39" accessibilityName="15041" />
+    <Key Id="cb" payload="cb" accessibilityName="15047" extended="true" />
+    <Key Id="cd" payload="cd" accessibilityName="15048" extended="true" />
+    <Key Id="c8" payload="c8" accessibilityName="15046" extended="true" />
+    <Key Id="d0" payload="d0" accessibilityName="15045" extended="true" />
+    <Key Id="c9" accessibilityName="15057" extended="true" />
+    <Key Id="d1" accessibilityName="15058" extended="true" />
+    <Key Id="1"  accessibilityName="15029" />
+    <Key Id="10720" accessibilityName="15400" payloadType="AppEvent" payload="1" repeat="0" />
+    <Key Id="10721" accessibilityName="15401" payloadType="AppEvent" payload="1" repeat="0" />
+  </State> 
+</KeyDefinitions>
