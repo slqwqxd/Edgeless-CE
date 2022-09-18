@@ -1,27 +1,32 @@
-if "x%opt[build.wim]%"=="xwinre" goto :EOF
+if "x%opt[component.taskmgr]%"=="xtrue" (
+  call AddFiles "pdh.dll,taskmgr.exe"
+)
 
-call AddFiles %0 :end_files
-goto :end_files
+if "x%opt[component.bitlocker]%"=="xtrue" (
+  call :ApplySubPatch ".\BitLocker"
+)
 
-@\Windows\System32\
-d3d*.dll
-fmapi.dll
-mlang.dat,mlang.dll,mshta.exe,mshtml*.*,msimtf.dll,msoert2.dll,msrating.dll,oledlg.dll,pngfilt.dll
-pnppropmig.dll,ReserveManager.dll,storagewmi.dll,storagewmi_passthru.dll,unbcl.dll
-wdsutil.dll,webplatstorageserver.dll,wfdprov.dll,WiFiConfigSP.dll,WiFiDisplay.dll
+if "x%opt[component.DWM]%"=="xtrue" (
+  call :ApplySubPatch ".\DWM"
+)
 
-;WLAN
-wlan*.dll
+if "x%opt[component.MMC]%"=="xtrue" (
+  call :ApplySubPatch ".\MMC"
+)
 
-;vwifi
-drivers\vwifibus.sys
-drivers\vwifimp.sys
+if "x%opt[component.search]%"=="xtrue" (
+  call :ApplySubPatch ".\Search"
+)
 
-;iscsi
-iscsi*.dll,iscsicli.exe,iscsicpl.exe
+if "x%opt[patch.drvinst]%"=="xtrue" (
+  call :ApplySubPatch ".\Patch_drvinst"
+)
 
-:end_files
+goto :EOF
 
-call RegCopy "HKLM\System\ControlSet001\Control\Network\{4d36e974-e325-11ce-bfc1-08002be10318}\{5CBF81BF-5055-47CD-9055-A76B2B4E3698}"
-call RegCopy "HKLM\System\ControlSet001\Control\WMI\Autologger\WiFiSession"
-call RegCopyEx Services "vwifibus,vwififlt,wcncsvc,wdiwifi,WFPLWFS,WlanSvc,NativeWifiP,MSiSCSI"
+:ApplySubPatch
+  echo Applying Patch: %~1\main.bat
+  pushd "%~1"
+  call main.bat
+  popd
+goto :EOF
