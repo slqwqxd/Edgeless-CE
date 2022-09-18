@@ -1,0 +1,25 @@
+body {
+  color: black;
+}
+
+select, option, input[type=text] {
+  color: black;
+}
+
+#theme_div {
+    display:block;
+}
+
+#theme_canvas {
+  position:absolute;top:0;left:0;
+  background-size:cover;
+  background-image:url('bk1.jpg');
+}
+
+#patches_list, #patch_html {
+  background:white;
+}
+
+#patch_html  {
+  color: black;
+}
