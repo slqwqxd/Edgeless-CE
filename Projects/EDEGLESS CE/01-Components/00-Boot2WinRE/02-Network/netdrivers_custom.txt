@@ -1,0 +1,18 @@
+;custom built-in network drivers
+;
+;%WB_ROOT%/%APPDATA_DIR%/Projects/%WB_PROJECT%/netdrivers_custom.txt
+
+:NETDRIVERS_x64
+
+netvwifibus.inf,netvwifimp.inf
+netr28ux.inf,netrtwlanu.inf
+
+:END_NETDRIVERS_x64
+
+
+:NETDRIVERS_x86
+
+netvwifibus.inf,netvwifimp.inf
+netr28.inf,netrtwlanu.inf
+
+:END_NETDRIVERS_x86
