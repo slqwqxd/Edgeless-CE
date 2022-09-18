@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards   layout="Quick" keydef="KeypadBase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\keyboardDefSchema.xsd">
+    <Keyboard langid="0x0404" keydef="ea" >
+        <HKL hkl="0xe0020404"/>
+    </Keyboard>
+    <Keyboard langid="0x0804" keydef="ea" >
+        <HKL hkl="0xe0010804"/>
+    </Keyboard>
+    <Keyboard langid="0x0c04"  keydef="ea" >
+        <HKL hkl="0x0c040c04"/>
+    </Keyboard>
+    <Keyboard langid="0x0411" keydef="ea">
+        <HKL hkl="0xe0010411"/>
+    </Keyboard>
+    <Keyboard langid="0x0412" keydef="kor-kor">
+        <HKL hkl="0xe0010412"/>
+    </Keyboard>
+</Keyboards>

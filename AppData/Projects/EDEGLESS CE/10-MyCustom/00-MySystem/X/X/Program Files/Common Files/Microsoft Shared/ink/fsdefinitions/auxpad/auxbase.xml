@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<KeyDefinitions modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+    <Key  Id="c7" accessibilityName="15055" extended="true" repeat="0"/>
+    <Key  Id="c9" accessibilityName="15057" extended="true" />
+    <Key  Id="cf" accessibilityName="15056" extended="true" repeat="0"/>
+    <Key  Id="d1" accessibilityName="15058" extended="true" />
+    <Key  Id="d3" accessibilityName="15042" extended="true" />
+    <Key  Id="b7" accessibilityName="15059" extended="true" repeat="0"/>
+    <Key  Id="d2" accessibilityName="15060" extended="true" repeat="0"/>
+    <Key  Id="10009" payloadType="VKCode" payload="13" accessibilityName="15061" repeat="0"/>
+    <Key  Id="46" modifierType="Locking" modifierName="Scroll" accessibilityName="15062" repeat="0"/>
+    <Key  Id="1d" modifierType="Sticky" modifierName="Ctrl" accessibilityName="15036" repeat="0"/>
+    <Key  Id="9d" modifierType="Sticky" modifierName="Ctrl" accessibilityName="15037" payload="1d" extended="true" repeat="0"/>
+    <Key  Id="11111" modifierType="Sticky" modifierName="Func" payloadType="AppEvent" payload="0" accessibilityName="15052" repeat="0"/>
+</State>
+<State modifier="Ctrl">
+    <Key  Id="10009" payloadType="VKCode" payload="03" accessibilityName="15061" repeat="0"/>
+</State>
+</KeyDefinitions>

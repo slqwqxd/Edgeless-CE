@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<KeyDefinitions modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+    <Key  Id="1" accessibilityName="15029" />
+    <Key  Id="e" accessibilityName="15030" />
+    <Key  Id="f" accessibilityName="15031" />
+    <Key  Id="1c" accessibilityName="15032" />
+    <Key  Id="2a" modifierType="Sticky" modifierName="Shift" accessibilityName="15033" repeat="0"/>
+    <Key  Id="36" modifierType="Sticky" modifierName="Shift" accessibilityName="15034" repeat="0"/>
+    <Key  Id="3a" modifierType="Locking" modifierName="Caps" accessibilityName="15035" repeat="0"/>
+    <Key  Id="1d" modifierType="Sticky" modifierName="Ctrl" accessibilityName="15036" repeat="0"/>
+    <Key  Id="9d" modifierType="Sticky" modifierName="Ctrl" accessibilityName="15037" payload="1d" extended="true" repeat="0"/>
+    <Key  Id="38" modifierType="Sticky" modifierName="Alt" accessibilityName="15038" repeat="0"/>
+    <Key  Id="39" accessibilityName="15041" />
+    <Key  Id="b8" modifierType="Sticky" modifierName="AltGr" accessibilityName="15040" payloadType="VKCode" payload="a5" repeat="0"/>
+    <Key  Id="d3" accessibilityName="15042" extended="true" />
+    <Key  Id="DD" payload="DD" accessibilityName="15043" extended="true" repeat="0"/>
+    <Key  Id="5B" payload="5B" modifierType="Sticky" modifierName="Windows" accessibilityName="15044" extended="true" repeat="0"/>
+    <Key  Id="D0" payload="D0" accessibilityName="15045" extended="true" />
+    <Key  Id="C8" payload="C8" accessibilityName="15046" extended="true" />
+    <Key  Id="CB" payload="CB" accessibilityName="15047" extended="true" />
+    <Key  Id="CD" payload="CD" accessibilityName="15048" extended="true" />
+    <Key  Id="11111" modifierType="Sticky" modifierName="Func" payloadType="AppEvent" payload="0" accessibilityName="15052" repeat="0"/>
+    <Key Id="b7" accessibilityName="15059" extended="true" repeat="0" />                                <!-- Print Screen -->
+    <Key Id="d2" accessibilityName="15060" extended="true" repeat="0" />                                <!-- Insert -->
+    <Key Id="10009" payloadType="VKCode" payload="13" accessibilityName="15061" repeat="0" />           <!-- Pause -->
+    <Key Id="46" modifierType="Locking" modifierName="Scroll" accessibilityName="15062" repeat="0" />   <!-- Scrolll lock -->
+  </State>
+  <State modifier="Func">
+    <Key  Id="2" payload="3b" primary="F1" accessibilityName="F1" />
+    <Key  Id="3" payload="3c" primary="F2" accessibilityName="F2" />
+    <Key  Id="4" payload="3d" primary="F3" accessibilityName="F3" />
+    <Key  Id="5" payload="3e" primary="F4" accessibilityName="F4" />
+    <Key  Id="6" payload="3f" primary="F5" accessibilityName="F5" />
+    <Key  Id="7" payload="40" primary="F6" accessibilityName="F6" />
+    <Key  Id="8" payload="41" primary="F7" accessibilityName="F7" />
+    <Key  Id="9" payload="42" primary="F8" accessibilityName="F8" />
+    <Key  Id="a" payload="43" primary="F9" accessibilityName="F9" />
+    <Key  Id="b" payload="44" primary="F10" accessibilityName="F10" />
+    <Key  Id="c" payload="57" primary="F11" accessibilityName="F11" />
+    <Key  Id="d" payload="58" primary="F12" accessibilityName="F12" />
+  </State>
+  <State modifier="Ctrl">
+    <Key Id="10009" payloadType="VKCode" payload="03" accessibilityName="15061" repeat="0" />           <!-- Pause -->
+  </State>
+</KeyDefinitions>
