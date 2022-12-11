@@ -1,0 +1,77 @@
+<!--INIT
+var patch_opt = {
+  "build.source":"light",
+  "build.registry.software":"merge"
+}
+INIT-->
+
+<div style="margin:5px 10px 5px 0px">
+<!--
+<link id="jquery-ui-theme" href="assets/vendor/jquery-ui/themes/hotsneaks/jquery-ui.theme.min.css" rel="stylesheet">
+-->
+  <fieldset>
+    <legend>Build source: </legend>
+    <label for="opt_bs-f">Full Winre.wim</label>
+    <input type="radio" name="build.source" class="opt_item" value="full" id="opt_bs-f">
+    <label for="opt_bs-l">Winre.wim with light WinSxS</label>
+    <input type="radio" name="build.source" class="opt_item" value="light" id="opt_bs-l" checked>
+    <div style="margin:5px 0px;" class="alert alert-warning">May cause problems that cannot boot with mixed WinSxS,<br/>The default option is recommended.</div>
+  </fieldset>
+
+  <div style="margin:10px 2px;padding:5px;border: 1px solid #c0c0c0;">
+
+    <label><input type="radio" class="opt_item" name="build.registry.software" value="full" /> Use full install.wim's SOFTWARE hive</label><br/>
+    <label><input type="radio" class="opt_item" name="build.registry.software" value="merge" checked/> Merge hive from install.wim</label><br/>
+    <div style='font-size:0.8em;'>
+      <ul>
+        <li>Copy HKLM\Software\Classes\AppID</li>
+        <li>Copy HKLM\Software\Classes\CLSID</li>
+        <li>Copy HKLM\Software\Classes\Interface</li>
+        <li>Copy HKLM\Software\Classes\TypeLib</li>
+        <li>...</li>
+        <li>Remove "RunAs"="Interactive User"</li>
+      </ul>
+    </div>
+
+    <fieldset class="beginner-hide">
+    <legend>Use install.wim's DRIVERS hive: </legend>
+    <label><input type="radio" class="opt_item" name="build.registry.drivers" value="notset" /> Not Set</label>
+    <label><input type="radio" class="opt_item" name="build.registry.drivers" value="replace" /> Replace</label>
+    <label><input type="radio" class="opt_item" name="build.registry.drivers" value="merge" checked/> Merge</label>
+    </fieldset>
+
+    <fieldset class="beginner-hide">
+    <legend>Merge install.wim's SYSTEM\DriverDatabase</legend>
+    <label><input type="radio" class="opt_item" name="build.registry.system_driverdatabase" value="notset" /> Not Set</label>
+    <label><input type="radio" class="opt_item" name="build.registry.system_driverdatabase" value="merge" checked/> Merge</label>
+    </fieldset>
+
+    <div class="beginner-hide">
+    <label title="Make sure that the required drivers\*.sys will be added" >
+      <input type="checkbox" name="build.registry.system" class="opt_item" />
+       <font color='red'><b>Merge full install.wim's SYSTEM(ControlSet001) hive</b></font>
+      </label>
+    </div>
+
+  </div>
+
+  <div style="margin:3px;font-size:.8em;">
+    <label><input type="checkbox" name="build.full_catalog" class="opt_item"> Use Full Catalog</label>
+    <br/>
+  </div>
+<script>
+(function() {
+    if (!$patch_loaded) {
+        if ($patches_opt["build.source"]=='full') {
+            $('#opt_bs-f').prop('checked', true);
+        } else {
+            $('#opt_bs-l').prop('checked', true);
+        }
+        if ($ui_settings['mode'] == 'Beginner') {
+            $('#opt_bs-f').prop('disabled', true);
+        }
+    }
+    $(':radio[id^=opt_bs-]').checkboxradio();
+})();
+</script>
+</div>

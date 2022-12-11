@@ -1,0 +1,83 @@
+<div style="margin:5px;padding:5px;">
+<!--
+<link id="jquery-ui-theme" href="assets/vendor/jquery-ui/themes/hotsneaks/jquery-ui.theme.min.css" rel="stylesheet">
+-->
+
+<style>
+fieldset {
+  width: 360px;
+  font-size:0.8em;
+}
+</style>
+
+<fieldset>
+<label class="left_label">Set ComputerName:</label>
+<input type="text" name="config.computername" class="right_val opt_item" value="WINXPE"/><br/>
+<label class="left_label">WinPE Cache Size:</label>
+<!-- Selectmenu -->
+<select id="fbwf_select" name="config.fbwf.cache" width="40%" class="opt_item">
+    <option value="128GB">128 GB</option>
+    <option value="8192">8 GB</option>
+    <option value="4096">4 GB</option>
+    <option value="2048" selected="selected">2 GB</option>
+    <option value="1024">1 GB</option>
+    <option value="512" >512 MB</option>
+</select>
+<br/>
+<br/>
+</fieldset>
+
+<fieldset>
+<legend>Power Options</legend>
+  <table>
+    <tr><td /><td>On Battery&nbsp;&nbsp;&nbsp;&nbsp;</td><td>Plugged In&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+    <tr><td>Turn off display(mins):</td>
+      <td><input id="off_disp_bat" name="system.power.off_disp_bat" min="0" max="300" value="0" class="opt_item" style="width:30px"></td>
+      <td><input id="off_disp_plug" name="system.power.off_disp_plug" min="0" max="300" value="0" class="opt_item" style="width:30px"></td>
+    </tr>
+    <tr><td>Turn off hard disk(mins):</td>
+      <td><input id="off_disk_bat" name="system.power.off_disk_bat" min="0" max="300" value="20" class="opt_item" style="width:30px"></td>
+      <td><input id="off_disk_plug" name="system.power.off_disk_plug" min="0" max="300" value="0" class="opt_item" style="width:30px"></td>
+    </tr>
+    <tr><td>Disable USB Selective suspend:</td>
+      <td align="center"><input type="checkbox" name="system.power.dis_usb_suspend_bat" class="opt_item" checked /></td>
+      <td align="center"><input type="checkbox" name="system.power.dis_usb_suspend_plug" class="opt_item" checked /></td>
+    </tr>
+  </table>
+</fieldset>
+
+<fieldset>
+<legend>Volume Options</legend>
+<!-- Spinner -->
+<label class="left_label">System Volume At Startup:</label>
+<input id="volume_level" name="system.volume_level" min="0" max="100" value="33" class="opt_item" style="width:30px"><br/>
+<div style="margin:3px;"><label><input type="checkbox" name="system.volume_mute" class="opt_item">Mute The System Volume At Startup</label></div><br/>
+</fieldset>
+
+<div style="margin:3px;font-size:.8em;"><label><input type="checkbox" name="system.numlock" class="opt_item" checked>NumLock ON</label></div><br/>
+
+
+</div>
+
+<script>
+(function() {
+  if (!$patch_loaded) {
+    if ($ui_settings['mode'] == 'Beginner') {
+      $("#fbwf_select option[value='128GB']").remove();
+      $("#fbwf_select option[value='8192']").remove();
+    }
+  }
+})();
+
+(function() {
+    $("#fbwf_select").selectmenu();
+    $("#fbwf_select").selectmenu( "option", "width", '40%' );
+    $("#volume_level").spinner();
+    $("#off_disp_bat").spinner();
+    $("#off_disp_plug").spinner();
+    $("#off_disk_bat").spinner();
+    $("#off_disk_plug").spinner();
+    $(':radio[id^=bt-]').checkboxradio();
+})();
+
+</script>
