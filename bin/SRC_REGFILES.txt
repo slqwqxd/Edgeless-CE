@@ -1,5 +1,0 @@
-\Windows\System32\config\DEFAULT
-\Windows\System32\config\DRIVERS
-\Windows\System32\config\SYSTEM
-\Windows\System32\config\SOFTWARE
-\Users\Default\NTUSER.DAT
