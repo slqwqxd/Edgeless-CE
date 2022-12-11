@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<KeyDefinitions  baseDefinition="base_altgr" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key Id="1a" primary="["/>
+<Key Id="1b" primary="]"/>
+</State> 
+<State modifier="Shift">
+<Key Id="a" primary="("/>
+<Key Id="b" primary=")"/>
+<Key Id="1a" primary="{"/>
+<Key Id="1b" primary="}"/>
+<Key Id="33" primary="&lt;"/>
+<Key Id="34" primary="&gt;"/>
+</State> 
+<State modifier="Caps">
+<Key Id="1a" primary="["/>
+<Key Id="1b" primary="]"/>
+</State> 
+<State modifier="Caps_Shift">
+<Key Id="1a" primary="["/>
+<Key Id="1b" primary="]"/>
+</State>
+</KeyDefinitions>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KeyDefinitions baseDefinition="symbase" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="10124" payloadType="Unicode" primary="。" />
+<Key  Id="10115" payloadType="Unicode" primary="「" />
+<Key  Id="10116" payloadType="Unicode" primary="」" />
+<Key  Id="10120" payloadType="Unicode" primary="¥" />
+<Key  Id="10123" payloadType="Unicode" primary="|" />
+<Key  Id="10131" payloadType="Unicode" primary="、" />
+<Key  Id="10132" payloadType="Unicode" primary="-"/>
+<Key  Id="10133" payloadType="Unicode" primary="〒" />
+<Key  Id="10134" payloadType="Unicode" primary="～" />
+</State> 
+</KeyDefinitions>

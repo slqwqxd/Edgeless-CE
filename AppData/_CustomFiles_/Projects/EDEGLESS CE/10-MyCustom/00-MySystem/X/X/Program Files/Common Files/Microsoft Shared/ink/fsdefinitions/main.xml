@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards keydef="base_altgr" layout="101L" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\KeyboardDefSchema.xsd" >
+
+    <Keyboard langid="0x0401" keydef="baseAltGr_rtl" layout="102L" description="Arabic-Saudi Arabia" >
+        <HKL hkl="0x04010401" layout="101" keydef="base_rtl" />
+        <HKL hkl="0x04090401" layout="101" keydef="base" /> 
+        <HKL hkl="0xf0040401" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0404" layout="101" keydef="base" description="Chinese-Taiwan" >
+        <Profile data1="0x4BDF9F03" data2="0xC7D3" data3="0x11D4" data40="0xB2" data41="0xAB" data42="0x00" data43="0x80" data44="0xC8" data45="0x82" data46="0x68" data47="0x7E" keydef="zh-changjei" /> <!-- TF_PROFILE_CHANGJIE -->
+        <Profile data1="0x6024B45F" data2="0x5C54" data3="0x11D4" data40="0xB9" data41="0x21" data42="0x00" data43="0x80" data44="0xC8" data45="0x82" data46="0x68" data47="0x7E" keydef="zh-changjei" /> <!-- TF_PROFILE_QUICK -->
+        <Profile data1="0xF3BA907A" data2="0x6C7E" data3="0x11D4" data40="0x97" data41="0xFA" data42="0x00" data43="0x80" data44="0xC8" data45="0x82" data46="0x68" data47="0x7E" keydef="zh-changjei" /> <!-- TF_PROFILE_NEWCHANGJIE -->
+        <Profile data1="0x0B883BA0" data2="0xC1C7" data3="0x11D4" data40="0x87" data41="0xF9" data42="0x00" data43="0x80" data44="0xC8" data45="0x82" data46="0x68" data47="0x7E" keydef="zh-changjei" /> <!-- TF_PROFILE_NEWQUICK -->
+        <Profile data1="0x761309DE" data2="0x317A" data3="0x11D4" data40="0x9B" data41="0x5D" data42="0x00" data43="0x80" data44="0xC8" data45="0x82" data46="0x68" data47="0x7E" keydef="zh-phonetic" /> <!-- TF_PROFILE_PHONETIC -->
+        <Profile data1="0xB2F9C502" data2="0x1742" data3="0x11D4" data40="0x97" data41="0x90" data42="0x00" data43="0x80" data44="0xC8" data45="0x82" data46="0x68" data47="0x7E" keydef="zh-phonetic" /> <!-- TF_PROFILE_NEWPHONETIC -->
+        <Profile data1="0x037B2C25" data2="0x480C" data3="0x4D7F" data40="0xB0" data41="0x27" data42="0xD6" data43="0xCA" data44="0x6B" data45="0x69" data46="0x78" data47="0x8A" keydef="zh-dayi" /> <!-- TF_PROFILE_DAYI -->
+        <HKL hkl="0xe0020404" keydef="zh-changjei" />
+        <HKL hkl="0xe0030404" keydef="zh-changjei" />
+        <HKL hkl="0xe0090404" keydef="zh-changjei" />
+        <HKL hkl="0xe00a0404" keydef="zh-changjei" />
+        <HKL hkl="0xe0010404" keydef="zh-phonetic" />
+        <HKL hkl="0xe0080404" keydef="zh-phonetic" />
+        <HKL hkl="0xe0060404" keydef="zh-dayi" />
+    </Keyboard>
+    
+    <Keyboard langid="0x0c04" layout="101" keydef="base" description="Chinese-Hong Kong SAR" />
+    
+    <Keyboard langid="0x0804" layout="101" keydef="base" description="Chinese-China" />
+
+    <Keyboard langid="0x1004" layout="101" keydef="base" description="Chinese-Singapore" />
+    
+    <Keyboard langid="0x1404" layout="101" keydef="base" description="Chinese-Macao SAR" />
+
+    <Keyboard langid="0x0405" layout="102L" description="Czech" >
+        <HKL hkl="0xf00a0405" layout="101L" /> 
+        <HKL hkl="0x04090405" layout="101" keydef="base" />
+        <HKL hkl="0xf0040405" layout="101" keydef="base" />
+    </Keyboard>
+
+
+    <Keyboard langid="0x0406" layout="102L" description="Danish" >
+        <HKL hkl="0x04090406" layout="101" keydef="base" />
+        <HKL hkl="0xf0040406" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0407" layout="102L" description="German-Germany" >
+        <HKL hkl="0x04090407" layout="101" keydef="base" />
+        <HKL hkl="0xf0040407" layout="101" keydef="base" description="Bulgarian" />
+    </Keyboard>
+
+    <Keyboard langid="0x0807" layout="102L" description="German-Switzerland" >
+        <HKL hkl="0x04090807" layout="101" keydef="base" />
+        <HKL hkl="0xf0040807" layout="101" keydef="base" description="Bulgarian" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c07" layout="102L" description="German-Austria" >
+        <HKL hkl="0x04090c07" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c07" layout="101" keydef="base" description="Bulgarian" />
+    </Keyboard>
+
+    <Keyboard langid="0x0409" layout="101" keydef="base" description="English-United States" >
+        <HKL hkl="0xf00b0409" layout="102" keydef="base" />
+        <HKL hkl="0xf0010409" layout="101L" keydef="base_altgr" />
+        <HKL hkl="0xf0b00409" layout="101L" keydef="base_altgr" />
+    </Keyboard>
+
+    <Keyboard langid="0x0809" layout="102L" description="English-United Kingdom" >
+        <HKL hkl="0x04090809" layout="101" keydef="base" />
+        <HKL hkl="0xf0040809" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c09"  keydef="base"  layout="101" description="English-Australia" />
+
+    <Keyboard langid="0x1009" layout="102L" description="English-Canada" >
+        <HKL hkl="0xf0201009" layout="102L" keydef="base_ca" />
+        <HKL hkl="0x04091009" layout="101" keydef="base" />
+        <HKL hkl="0xf0041009" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x1409" layout="101" keydef="base" description="English-New Zealand" />
+
+    <Keyboard langid="0x1809" layout="102L" description="English-Ireland" >
+        <HKL hkl="0x04091809" layout="101" keydef="base" />
+        <HKL hkl="0xf0041809" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x1c09" layout="101" keydef="base" description="English-South Africa" />
+
+    <Keyboard langid="0x2009" layout="101" keydef="base" description="English-Jamaica" />
+
+    <Keyboard langid="0x2409" layout="101" keydef="base" description="English-Caribbean" />
+
+    <Keyboard langid="0x2809" layout="101" keydef="base" description="English-Belize" />
+
+    <Keyboard langid="0x2c09" layout="101" keydef="base" description="English-Trinidad" />
+
+    <Keyboard langid="0x3009" layout="101" keydef="base" description="English-Simbabwe" />
+
+    <Keyboard langid="0x3409" layout="101" keydef="base" description="English-Phillippines" />
+
+    <Keyboard langid="0x040b" layout="102L" description="Finnish" >
+        <HKL hkl="0x0409040b" layout="101" keydef="base" />
+        <HKL hkl="0xf004040b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x040c" layout="102L" description="French-France" >
+        <HKL hkl="0x0409040c" layout="101" keydef="base" />
+        <HKL hkl="0xf004040c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x080c" layout="102L" description="French-Belgium" >
+        <HKL hkl="0x0409080c" layout="101"  keydef="base" />
+        <HKL hkl="0xf004080c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x100c" layout="102L" description="French-Switzerland" >
+        <HKL hkl="0x0409100c" layout="101" keydef="base" />
+        <HKL hkl="0xf004100c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x140c" description="French-Luxembourg" >
+        <HKL hkl="0x0409140c" layout="101" keydef="base" />
+        <HKL hkl="0xf004140c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x180c" description="French-Principality of Monaco" >
+        <HKL hkl="0x0409180c" layout="101" keydef="base" />
+        <HKL hkl="0xf004180c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c0c" layout="102L" description="French-Canada" >
+        <HKL hkl="0x04090c0c" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c0c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x040d" layout="102L" keydef="base_heb" description="Hebrew" >
+        <HKL hkl="0x0409040d" layout="101" keydef="base" />
+        <HKL hkl="0xf004040d" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0410" layout="102L" description="Italian-Italy" >
+        <HKL hkl="0x04090410" layout="101" keydef="base" />
+        <HKL hkl="0xf0040410" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0411" layout="106" keydef="ja-jp" description="Japanese" />
+
+    <Keyboard langid="0x0412" layout="103" keydef="ko-kr" description="Korean" />
+
+    <Keyboard langid="0x0413" description="Dutch-Netherlands" >
+        <HKL hkl="0x04130413" layout="102L"/>
+        <HKL hkl="0x04090413" layout="101" keydef="base" />
+        <HKL hkl="0xf0040413" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0813" description="Dutch-Belgium" >
+        <HKL hkl="0x04090813" layout="101" keydef="base" />
+        <HKL hkl="0xf0040813" layout="101" keydef="base" />
+    </Keyboard>    
+
+    <Keyboard langid="0x0414" layout="102L" description="Norwegian-Bokml" >
+        <HKL hkl="0x04090414" layout="101" keydef="base" />
+        <HKL hkl="0xf0040414" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0814" layout="102L" description="Norwegian-Nynorsk" >
+        <HKL hkl="0x04090814" layout="101" keydef="base" />
+        <HKL hkl="0xf0040814" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0416" layout="103LAlt" keydef="base" description="Portuguese-Brazil" >
+        <HKL hkl="0x04090416" layout="101" keydef="base" />
+        <HKL hkl="0xf0040416" layout="101" keydef="base" />
+        <HKL hkl="0xf0100416" layout="103L" keydef="base_altgr" description="ABNT2" />
+    </Keyboard>
+
+    <Keyboard langid="0x0816" layout="102L" description="Portuguese-Portugal" >
+        <HKL hkl="0x04090816" layout="101" keydef="base" />
+        <HKL hkl="0xf0040816" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x040a" layout="102L" description="Spanish-Spain (Traditional)" >
+        <HKL hkl="0x0409040a" layout="101" keydef="base" />
+        <HKL hkl="0xf004040a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0419" layout="101" keydef="base" description="Russian" />
+
+    <Keyboard langid="0x041d" layout="102L" description="Swedish-Sweden" >
+        <HKL hkl="0x0409041d" layout="101" keydef="base" />
+        <HKL hkl="0xf004041d" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x041f" layout="102L" description="Turkish" >
+        <HKL hkl="0x0409041f" layout="101"  keydef="base" />
+        <HKL hkl="0xf004041f" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0801" keydef="base_rtl" layout="101" description="Arabic-Iraq" >
+        <HKL hkl="0x04090801" layout="101" keydef="base" />
+        <HKL hkl="0xf0040801" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c01" keydef="base_rtl" layout="101" description="Arabic-Egypt" >
+        <HKL hkl="0x04090c01" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c01" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x01001" keydef="base_rtl" layout="101" description="Arabic-Libya" >
+        <HKL hkl="0x04091001" layout="101" keydef="base" />
+        <HKL hkl="0xf0041001" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x01401" keydef="baseAltGr_rtl" layout="102L" description="Arabic-Algeria" >
+        <HKL hkl="0x040c1401" layout="102L" keydef="base_altgr" />
+        <HKL hkl="0x04091401" layout="101" keydef="base" />
+        <HKL hkl="0xf0041401" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x01801" keydef="baseAltGr_rtl" layout="102L" description="Arabic-Morocco" >
+        <HKL hkl="0x040c1801" layout="102L" keydef="base_altgr" />
+        <HKL hkl="0x04091801" layout="101" keydef="base" />
+        <HKL hkl="0xf0041801" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x01c01" keydef="baseAltGr_rtl" layout="102L" description="Arabic-Tunisia" >
+        <HKL hkl="0x040c1c01" layout="102L" keydef="base_altgr" />
+        <HKL hkl="0x04091c01" layout="101" keydef="base" />
+        <HKL hkl="0xf0041c01" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x02001" keydef="base_rtl" layout="101" description="Arabic-Oman" >
+        <HKL hkl="0x04092001" layout="101" keydef="base" />
+        <HKL hkl="0xf0042001" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x02401" keydef="base_rtl" layout="101" description="Arabic-Yemen" >
+        <HKL hkl="0x04092401" layout="101" keydef="base" />
+        <HKL hkl="0xf0042401" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x02801" keydef="base_rtl" layout="101" description="Arabic-Syria" >
+        <HKL hkl="0x04092801" layout="101" keydef="base" />
+        <HKL hkl="0xf0042801" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x02c01" keydef="base_rtl" layout="101" description="Arabic-Jordan" >
+        <HKL hkl="0x04092c01" layout="101" keydef="base" />
+        <HKL hkl="0xf0042c01" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x03001" keydef="base_rtl" layout="101" description="Arabic-Lebanon" >
+        <HKL hkl="0x04093001" layout="101" keydef="base" />
+        <HKL hkl="0xf0043001" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x03401" keydef="base_rtl" layout="101" description="Arabic-Kuwait" >
+        <HKL hkl="0x04093401" layout="101" keydef="base" />
+        <HKL hkl="0xf0043401" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x03801" keydef="base_rtl" layout="101" description="Arabic-United Arab Emirates" >
+        <HKL hkl="0x04093801" layout="101" keydef="base" />
+        <HKL hkl="0xf0043801" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x03c01" keydef="base_rtl" layout="101" description="Arabic-Bahrain" >
+        <HKL hkl="0x04093c01" layout="101" keydef="base" />
+        <HKL hkl="0xf0043c01" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x04001" keydef="base_rtl" layout="101" description="Arabic-Qatar" >
+        <HKL hkl="0x04094001" layout="101" keydef="base" />
+        <HKL hkl="0xf0044001" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c0a"  layout="102L" description="Spanish-Spain" >
+        <HKL hkl="0x04090c0a" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c0a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x080a" description="Spanish-Mexico" >
+        <HKL hkl="0x080a080a"  layout="101L" />
+        <HKL hkl="0x0000080a"  layout="102L" />
+        <HKL hkl="0x0409080a" layout="101" keydef="base" />
+        <HKL hkl="0xf004080a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x141a" layout="102L" description="Bosnian (Bosnia/Herzegovina)" >
+        <HKL hkl="0x0409141a" layout="101" keydef="base" />
+        <HKL hkl="0xf004141a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0402" layout="102" keydef="base" description="Bulgarian" >
+        <HKL hkl="0x04090402" layout="101" keydef="base" />
+        <HKL hkl="0xf0040402" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x041a" layout="102L" description="Croatian" >
+        <HKL hkl="0x0409041a" layout="101" keydef="base" />
+        <HKL hkl="0xf004041a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x101a" layout="102L" description="Croatian (Bosnia/Herzegovina)" >
+        <HKL hkl="0x0409101a" layout="101" keydef="base" />
+        <HKL hkl="0xf004101a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0425" layout="102L" description="Estonian" >
+        <HKL hkl="0x04090425" layout="101" keydef="base" />
+        <HKL hkl="0xf0040425" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0408" layout="102L" description="Greek" >
+        <HKL hkl="0xf0190408"  layout="101L" />
+        <HKL hkl="0xf01f0408"   layout="101L" />
+        <HKL hkl="0x04080408"   layout="101L" />
+        <HKL hkl="0x04090408" layout="101" keydef="base" />
+        <HKL hkl="0xf0040408" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x040e" layout="102L" description="Hungarian" >
+        <HKL hkl="0x0409040e" layout="101" keydef="base" />
+        <HKL hkl="0xf004040e" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0421" layout="101" keydef="base" description="Indonesian" />
+
+    <Keyboard langid="0x0426" description="Latvian" >
+        <HKL hkl="0xf0150426" layout="102L"/>
+        <HKL hkl="0xf0b10426" layout="102L"/>
+        <HKL hkl="0x04090426" layout="101" keydef="base" />
+        <HKL hkl="0xf0040426" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0427" layout="101L" description="Lithuanian" >
+        <HKL hkl="0x04270427" layout="102L"/>
+        <HKL hkl="0x04090427" layout="101" keydef="base" />
+        <HKL hkl="0xf0040427" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x042f" layout="102L" description="North Macedonia" >
+        <HKL hkl="0x0409042f" layout="101" keydef="base" />
+        <HKL hkl="0xf004042f" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0418" layout="102L" description="Romanan-Romania" >
+        <HKL hkl="0x04090418" layout="101" keydef="base" />
+        <HKL hkl="0xf0040418" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x081a" layout="102L" description="Serbian-Latin" >
+        <HKL hkl="0x0409081a" layout="101" keydef="base" />
+        <HKL hkl="0xf004081a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x181a" layout="102L" description="Serbian-Latin (Bosnia and Herzegovina)" >
+        <HKL hkl="0x0409181a" layout="101" keydef="base" />
+        <HKL hkl="0xf004181a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c1a" layout="102L" description="Serbian-Cyrillic" >
+        <HKL hkl="0x04090c1a" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c1a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x1c1a" layout="102L" description="Serbian-Cyrillic (Bosnia and Herzegovina)" >
+        <HKL hkl="0x04091c1a" layout="101" keydef="base" />
+        <HKL hkl="0xf0041c1a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x041b" layout="102L" description="Slovak" >
+        <HKL hkl="0x0409041b" layout="101" keydef="base" />
+        <HKL hkl="0xf004041b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0424" layout="102L" description="Slovenian" >
+        <HKL hkl="0x04090424" layout="101" keydef="base" />
+        <HKL hkl="0xf0040424" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x041e" layout="101" keydef="base" description="Thai" >
+        <HKL hkl="0xf021041e" layout="102" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0422" layout="102L" description="Ukranian" >
+        <HKL hkl="0x04090422" layout="101"  keydef="base" />
+        <HKL hkl="0xf0040422" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0420" layout="101" keydef="base" description="Urdu" />
+
+    <Keyboard langid="0x0415" layout="102L" description="Polish" >
+        <HKL hkl="0x04150415" layout="101L"/> 
+        <HKL hkl="0x04090415" layout="101" keydef="base" />
+        <HKL hkl="0xf0040415" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x081d" layout="102L" description="Swedish-Finland" >
+        <HKL hkl="0x0409081d" layout="101" keydef="base" />
+        <HKL hkl="0xf004081d" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0436" layout="101" keydef="base" description="Afrikaans" />
+
+    <Keyboard langid="0x041c" layout="102L" description="Albanian" >
+        <HKL hkl="0x0409041c" layout="101" keydef="base" /> 
+        <HKL hkl="0xf004041c" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x042b" layout="101" keydef="base" description="Armenian" />
+    
+    <Keyboard langid="0x042c" layout="101" keydef="base" description="Azeri-Latin" >
+        <HKL hkl="0x082c042c" layout="102" keydef="base" /> 
+    </Keyboard>
+    
+    <Keyboard langid="0x082c" layout="102" keydef="base" description="Azeri-Cyrillic" >
+        <HKL hkl="0x042c082c" layout="101" keydef="base" /> 
+        <HKL hkl="0x0419082c" layout="101" keydef="base" /> 
+        <HKL hkl="0x0409082c" layout="101" keydef="base" />
+        <HKL hkl="0xf004082c" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x042d" layout="102L" description="Basque" >
+        <HKL hkl="0x0409042d" layout="101" keydef="base" />
+        <HKL hkl="0xf004042d" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0423" layout="101" keydef="base" description="Belarusian" />
+    
+    <Keyboard langid="0x0403" layout="102L" description="Catalan" >
+        <HKL hkl="0x04090403" layout="101" keydef="base" />
+        <HKL hkl="0xf0040403" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x0438" layout="102L" description="Faroese" >
+        <HKL hkl="0x04090438" layout="101" keydef="base" />
+        <HKL hkl="0xf0040438" layout="101" keydef="base" />
+    </Keyboard>
+        
+    <Keyboard langid="0x0429" layout="101" keydef="base" description="Farsi" />
+    
+    <Keyboard langid="0x0456" layout="102L" description="Galician" >
+        <HKL hkl="0x04090456" layout="101" keydef="base" />
+        <HKL hkl="0xf0040456" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x040f" layout="102L" description="Icelandic" >
+        <HKL hkl="0x0409040f" layout="101" keydef="base" />
+        <HKL hkl="0xf004040f" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x043f" layout="102" keydef="base" description="Kazakh-Kazakhstan" >
+        <HKL hkl="0x0409043f" layout="101" keydef="base" />
+        <HKL hkl="0x0419043f" layout="101" keydef="base" />
+        <HKL hkl="0xf004043f" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x043e" layout="101" keydef="base" description="Malay-Malaysia" />
+    
+    <Keyboard langid="0x083e" layout="101" keydef="base" description="Malay-Brunei" />
+    
+    <Keyboard langid="0x0465" layout="102" keydef="base" description="Divehi-Maldives" >
+        <HKL hkl="0x04650465" layout="101L" keydef="base_altgr" />
+        <HKL hkl="0x04090465" layout="101"  keydef="base" />
+        <HKL hkl="0xf0040465" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0481" layout="101" keydef="base" description="Maori-New Zealand" />
+
+    <Keyboard langid="0x0450" layout="101" keydef="base" description="Mongolian-Cyrillic (Mongolia)" />
+
+    <Keyboard langid="0x243b" layout="102L" description="Sami, Inari-Finland" > 
+        <HKL hkl="0x0409243b" layout="101" keydef="base" />
+        <HKL hkl="0xf004243b" layout="101" keydef="base" />
+    </Keyboard> 
+      
+    <Keyboard langid="0x103b" layout="102L" description="Sami, Lule-Norway" > 
+        <HKL hkl="0x0409103b" layout="101" keydef="base" />
+        <HKL hkl="0xf004103b" layout="101" keydef="base" />
+    </Keyboard> 
+      
+    <Keyboard langid="0x143b" layout="102L" description="Sami, Lule-Sweden" > 
+        <HKL hkl="0x0409143b" layout="101" keydef="base" />
+        <HKL hkl="0xf004143b" layout="101" keydef="base" />
+    </Keyboard> 
+      
+    <Keyboard langid="0x0c3b" layout="102L" description="Sami, Northern-Finland" >
+        <HKL hkl="0x04090c3b" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c3b" layout="101" keydef="base" />
+    </Keyboard>
+      
+    <Keyboard langid="0x043b" layout="102L" description="Sami, Northern-Norway" >
+        <HKL hkl="0x0409043b" layout="101" keydef="base" />
+        <HKL hkl="0xf004043b" layout="101" keydef="base" />
+    </Keyboard> 
+      
+    <Keyboard langid="0x083b" layout="102L" description="Sami, Northern-Sweden" >
+        <HKL hkl="0x0409083b" layout="101" keydef="base" />
+        <HKL hkl="0xf004083b" layout="101" keydef="base" />
+    </Keyboard> 
+      
+    <Keyboard langid="0x203b" layout="102L" description="Sami, Skolt-Finland" > 
+        <HKL hkl="0x0409203b" layout="101" keydef="base" />
+        <HKL hkl="0xf004203b" layout="101" keydef="base" />
+    </Keyboard>
+        
+    <Keyboard langid="0x183b" layout="102L" description="Sami, Southern-Norway" > 
+        <HKL hkl="0x0409183b" layout="101" keydef="base" />
+        <HKL hkl="0xf004183b" layout="101" keydef="base" />
+    </Keyboard> 
+
+    <Keyboard langid="0x1c3b" layout="102L" description="Sami, Southern-Sweden" > 
+        <HKL hkl="0x04091c3b" layout="101" keydef="base" />
+        <HKL hkl="0xf0041c3b" layout="101" keydef="base" />
+    </Keyboard> 
+
+    <Keyboard langid="0x0444" layout="102L" description="Tatar" > 
+        <HKL hkl="0x04090444" layout="101"  keydef="base" />
+        <HKL hkl="0x04190444" layout="101"  keydef="base" />
+        <HKL hkl="0xf0040444" layout="101" keydef="base" />
+    </Keyboard>
+      
+    <Keyboard langid="0x0443" layout="101" keydef="base" description="Uzbek-Latin" /> 
+      
+    <Keyboard langid="0x0843" layout="101" keydef="base" description="Uzbek-Cyrillic" /> 
+      
+    <Keyboard langid="0x046c" layout="101" keydef="base" description="Sesotho sa Leboa-South Africa" /> 
+      
+    <Keyboard langid="0x0441" layout="101" keydef="base" description="Swahili" /> 
+      
+    <Keyboard langid="0x0432" layout="101" keydef="base" description="Setsuana" /> 
+
+    <Keyboard langid="0x0451" layout="101" keydef="base" description="Tibetan (PRC)" />
+
+    <Keyboard langid="0x0452" layout="102L" description="Welsh-United Kingdom" > 
+        <HKL hkl="0x04090452" layout="101" keydef="base" />
+        <HKL hkl="0xf0040452" layout="101" keydef="base" />
+    </Keyboard>
+      
+    <Keyboard langid="0x0434" layout="101" keydef="base" description="Xhosa" />
+      
+    <Keyboard langid="0x0435" layout="101" keydef="base" description="Zulu" />
+
+    <Keyboard langid="0x0437" layout="101L" description="Georgian-Georgia" >
+        <HKL hkl="0x04090437" layout="101" keydef="base" />
+        <HKL hkl="0xf0040437" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0439" description="Hindi" >
+        <HKL hkl="0x04090439" layout="101" keydef="base" />
+        <HKL hkl="0xf0040439" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0440" description="Kyrgyz-Kyrgyzstan" >
+        <HKL hkl="0x04090440" layout="101" keydef="base" />
+        <HKL hkl="0xf0040440" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x045a" description="Syriac-Syria" >
+        <HKL hkl="0x0409045a" layout="101" keydef="base" />
+        <HKL hkl="0xf004045a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0449" description="Tamil" >
+        <HKL hkl="0x04090449" layout="101" keydef="base" />
+        <HKL hkl="0xf0040449" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x044a" description="Telugu-India" >
+        <HKL hkl="0x0409044a" layout="101" keydef="base" />
+        <HKL hkl="0xf004044a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x042a" description="Vietnamese" >
+        <HKL hkl="0x0409042a" layout="101" keydef="base" />
+        <HKL hkl="0xf004042a" layout="101" keydef="base" />
+    </Keyboard>
+          
+    <Keyboard langid="0x0447" description="Gujarati-India" >
+        <HKL hkl="0x04090447" layout="101" keydef="base" />
+        <HKL hkl="0xf0040447" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x044b" description="Kannada-India" >
+        <HKL hkl="0x0409044b" layout="101" keydef="base" />
+        <HKL hkl="0xf004044b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x043a" layout="102L" keydef="base_altgr" description="Maltese" >
+        <HKL hkl="0x0409043a" layout="101" keydef="base" />
+        <HKL hkl="0xf004043a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0446" description="Punjabi-India" >
+        <HKL hkl="0x04090446" layout="101" keydef="base" />
+        <HKL hkl="0xf0040446" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0454" layout="101" keydef="base" description="Lao-Lao P.D.R." />
+    
+    <Keyboard langid="0x0428" layout="101" keydef="base" description="Tajik Cyrillic-Tajikistan" />
+    
+    <Keyboard langid="0x0484" layout="102L" description="Alsatian-France" >
+        <HKL hkl="0x04090484" layout="101" keydef="base" />
+        <HKL hkl="0xf0040484" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x045e" description="Amharic-Ethiopia" >
+        <HKL hkl="0x0409045e" layout="101" keydef="base" />
+        <HKL hkl="0xf004045e" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x044d" description="Assamese-India" >
+        <HKL hkl="0x0409044d" layout="101" keydef="base" />
+        <HKL hkl="0xf004044d" layout="101" keydef="base" />
+        <HKL hkl="0xf02a044d" layout="101" keydef="base" />
+        <HKL hkl="0x044d044d" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0445" layout="101" keydef="base" description="Bengali-India" >
+        <HKL hkl="0x04450445" layout="101L" keydef="base_altgr" />
+    </Keyboard>
+
+    <Keyboard langid="0x0478" layout="101" keydef="base" description="Yi (PRC)" />
+
+    <Keyboard langid="0x047e" description="Breton-France" >
+        <HKL hkl="0x0409047e" layout="101" keydef="base" />
+        <HKL hkl="0xf004047e" layout="101" keydef="base" />
+        <HKL hkl="0x040c047e" layout="102L" />
+    </Keyboard>
+
+    <Keyboard langid="0x0483" description="Corsican-France" >
+        <HKL hkl="0x04090483" layout="101" keydef="base" />
+        <HKL hkl="0xf0040483" layout="101" keydef="base" />
+        <HKL hkl="0x040c0483" layout="102L" />
+    </Keyboard>
+    
+    <Keyboard langid="0x4009" description="English-India" >
+        <HKL hkl="0x04094009" layout="101" keydef="base" />
+        <HKL hkl="0xf0044009" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x4409" description="English-Malaysia" >
+        <HKL hkl="0x04094409" layout="101" keydef="base" />
+        <HKL hkl="0xf0044409" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x4809" description="English-Singapore" >
+        <HKL hkl="0x04094809" layout="101" keydef="base" />
+        <HKL hkl="0xf0044809" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0464" layout="101" keydef="base" description="Filipino-Philippines" />
+
+    <Keyboard langid="0x085d" description="Inuktitut Latin-Canada" >
+        <HKL hkl="0x0409085d" layout="101" keydef="base" />
+        <HKL hkl="0xf004085d" layout="101" keydef="base" />
+    </Keyboard>
+    
+    <Keyboard langid="0x045d" description="Inuktitut Sallabics-Canada" >
+        <HKL hkl="0x0409045d" layout="101" keydef="base" />
+        <HKL hkl="0xf004045d" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0453" description="Khmer-Cambodia" >
+        <HKL hkl="0x04090453" layout="101" keydef="base" />
+        <HKL hkl="0xf0040453" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0486" layout="102L" description="K'iche-Guatemala" >
+        <HKL hkl="0x04090486" layout="101" keydef="base" />
+        <HKL hkl="0xf0040486" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0457" description="Konkani-India" >
+        <HKL hkl="0x04090457" layout="101" keydef="base" />
+        <HKL hkl="0xf0040457" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x082e" layout="102L" description="Lower Sorbian-Germany" >
+        <HKL hkl="0x0409082e" layout="101" keydef="base" />
+        <HKL hkl="0xf004082e" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x044c" description="Malayalam-India" >
+        <HKL hkl="0x0409044c" layout="101" keydef="base" />
+        <HKL hkl="0xf004044c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x047a" layout="102L" description="Mapudungun-Chile" >
+        <HKL hkl="0x0409047a" layout="101" keydef="base" />
+        <HKL hkl="0xf004047a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x044e" description="Marathi" >
+        <HKL hkl="0x0409044e" layout="101" keydef="base" />
+        <HKL hkl="0xf004044e" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x047c" layout="101" keydef="base" description="Mohawk-Mohawk" />
+
+    <Keyboard langid="0x0482" layout="102L" description="Occitan-France" >
+        <HKL hkl="0x04090482" layout="101" keydef="base" />
+        <HKL hkl="0xf0040482" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x046b" description="Quechua-Bolivia" >
+        <HKL hkl="0x0409046b" layout="101" keydef="base" />
+        <HKL hkl="0xf004046b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x086b" description="Quechua-Ecuador" >
+        <HKL hkl="0x0409086b" layout="101" keydef="base" />
+        <HKL hkl="0xf004086b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0c6b" description="Quechua-Peru" >
+        <HKL hkl="0x04090c6b" layout="101" keydef="base" />
+        <HKL hkl="0xf0040c6b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0417" layout="102L" description="Raeto-Romance" >
+        <HKL hkl="0x04090417" layout="101" keydef="base" />
+        <HKL hkl="0xf0040417" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x044f" description="Sanskrit" >
+        <HKL hkl="0x0409044f" layout="101" keydef="base" />
+        <HKL hkl="0xf004044f" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x045b" description="Sinhala-Sri Lanka" >
+        <HKL hkl="0x0409045b" layout="101" keydef="base" />
+        <HKL hkl="0xf004045b" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x2c0a" description="Spanish-Argentina" >
+        <HKL hkl="0x04092c0a" layout="101" keydef="base" />
+        <HKL hkl="0xf0042c0a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x400a" description="Spanish-Bolivia" >
+        <HKL hkl="0x0409400a" layout="101" keydef="base" />
+        <HKL hkl="0xf004400a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x340a" description="Spanish-Chile" >
+        <HKL hkl="0x0409340a" layout="101" keydef="base" />
+        <HKL hkl="0xf004340a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x240a" description="Spanish-Colombia" >
+        <HKL hkl="0x0409240a" layout="101" keydef="base" />
+        <HKL hkl="0xf004240a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x140a" description="Spanish-Costa Rica" >
+        <HKL hkl="0x0409140a" layout="101" keydef="base" />
+        <HKL hkl="0xf004140a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x1c0a" description="Spanish-Dominican Republic" >
+        <HKL hkl="0x04091c0a" layout="101" keydef="base" />
+        <HKL hkl="0xf0041c0a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x300a" description="Spanish-Ecuador" >
+        <HKL hkl="0x0409300a" layout="101" keydef="base" />
+        <HKL hkl="0xf004300a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x440a" description="Spanish-El Salvador" >
+        <HKL hkl="0x0409440a" layout="101" keydef="base" />
+        <HKL hkl="0xf004440a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x100a" description="Spanish-Guatemala" >
+        <HKL hkl="0x0409100a" layout="101" keydef="base" />
+        <HKL hkl="0xf004100a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x480a" description="Spanish-Honduras" >
+        <HKL hkl="0x0409480a" layout="101" keydef="base" />
+        <HKL hkl="0xf004480a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x4c0a" description="Spanish-Nicaragua" >
+        <HKL hkl="0x04094c0a" layout="101" keydef="base" />
+        <HKL hkl="0xf0044c0a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x180a" description="Spanish-Panama" >
+        <HKL hkl="0x0409180a" layout="101" keydef="base" />
+        <HKL hkl="0xf004180a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x3c0a" description="Spanish-Paraguay" >
+        <HKL hkl="0x04093c0a" layout="101" keydef="base" />
+        <HKL hkl="0xf0043c0a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x280a" description="Spanish-Peru" >
+        <HKL hkl="0x0409280a" layout="101" keydef="base" />
+        <HKL hkl="0xf004280a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x500a" description="Spanish-Puerto Rico" >
+        <HKL hkl="0x0409500a" layout="101" keydef="base" />
+        <HKL hkl="0xf004500a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x540a" layout="102L" description="Spanish-United States" >
+        <HKL hkl="0x0409540a" layout="101" keydef="base" />
+        <HKL hkl="0xf004540a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x380a" description="Spanish-Uruguay" >
+        <HKL hkl="0x0409380a" layout="101" keydef="base" />
+        <HKL hkl="0xf004380a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x200a" description="Spanish-Venezuela" >
+        <HKL hkl="0x0409200a" layout="101" keydef="base" />
+        <HKL hkl="0xf004200a" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x085f" layout="102L" description="Tamazight Latin-Algeria" >
+        <HKL hkl="0x0409085f" layout="101" keydef="base" />
+        <HKL hkl="0xf004085f" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0480" layout="101" keydef="base" description="Uighur-PRC" />
+
+    <Keyboard langid="0x042e" layout="102L" description="Sorbian" >
+        <HKL hkl="0x0409042e" layout="101" keydef="base" />
+        <HKL hkl="0xf004042e" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0488" layout="102L" description="Wolof-Senegal" >
+        <HKL hkl="0x04090488" layout="101" keydef="base" />
+        <HKL hkl="0xf0040488" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0485" description="Sakha-Russia" >
+        <HKL hkl="0x04090485" layout="101" keydef="base" />
+        <HKL hkl="0x04190485" layout="101" keydef="base" />
+        <HKL hkl="0xf0040485" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x046a" layout="101" keydef="base" description="Yoruba-Nigeria" />
+
+    <Keyboard langid="0x046f" layout="102L" description="Greenlandic-Greenland" >
+        <HKL hkl="0x0409046f" layout="101" keydef="base" />
+        <HKL hkl="0xf004046f" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x083c" layout="102L" description="Gaelic-Ireland" >
+        <HKL hkl="0x0409083c" layout="101" keydef="base" />
+        <HKL hkl="0xf004083c" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0810" description="Italian-Switzerland" >
+        <HKL hkl="0x04100810" layout="102L" />
+        <HKL hkl="0x100c0810" layout="102L" />
+        <HKL hkl="0x04090810" layout="101" keydef="base" />
+        <HKL hkl="0xf0040810" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x0487" layout="101" keydef="base" description="Kinyarwanda-Rwanda" />
+
+    <Keyboard langid="0x046d" layout="101" keydef="base" description="Bashkir-Russia" />
+
+    <Keyboard langid="0x0850" layout="101" keydef="base" description="Mongolian" />
+    
+    <Keyboard langid="0x0475" layout="101" keydef="base" description="Hawaiian-Hawaii" />
+
+    <Keyboard langid="0x045c" layout="101" keydef="base" description="Cherokee-United States" />
+
+    <Keyboard langid="0x0474" layout="101" keydef="base" description="Guarani" />
+
+    <Keyboard langid="0x0492" layout="101" keydef="base_rtl" description="Central Kurdish-Iraq">
+      <HKL hkl="0x04090492" layout="101" keydef="base" />
+      <HKL hkl="0xf0040492" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x085F" layout="102L" description="Central Atlas Tamazight" >
+        <HKL hkl="0x1801085F" layout="102L" keydef="baseAltGr_rtl" />
+        <HKL hkl="0x040c085F" layout="102L" keydef="base_altgr" />
+        <HKL hkl="0x0409085F" layout="101" keydef="base" />
+        <HKL hkl="0xf004085F" layout="101" keydef="base" />
+    </Keyboard>
+
+    <Keyboard langid="0x2000" description="Reserved langid" >
+      <HKL hkl="0xf0302000" />
+      <HKL hkl="0xf0312000" layout="101" />
+      <HKL hkl="0xf0322000" layout="102L" />
+      <HKL hkl="0xf0342000" layout="101" />
+      <HKL hkl="0xf0352000" layout="102L" />
+      <HKL hkl="0xf0362000" layout="102L" />
+      <HKL hkl="0xf03e2000" />
+      <HKL hkl="0xf03f2000" />
+      <HKL hkl="0xf0402000" layout="102L" />
+      <HKL hkl="0xf0412000" layout="101" />
+      <HKL hkl="0xf0B32000" layout="101" />
+      <HKL hkl="0xf0B42000" layout="102L" />
+      <HKL hkl="0xf0B62000" layout="101" />
+      <HKL hkl="0xf0B82000" layout="102L" />
+      <HKL hkl="0xf0B92000" layout="101" />
+      <HKL hkl="0xf0B72000" layout="101" />
+      <HKL hkl="0xf0BA2000" layout="101" />
+      <HKL hkl="0xf0BB2000" layout="102L" />
+    </Keyboard>
+
+    <Keyboard langid="0x2400" description="Reserved langid" >
+      <HKL hkl="0xf0302400" />
+      <HKL hkl="0xf0312400" layout="101" />
+      <HKL hkl="0xf0322400" layout="102L" />
+      <HKL hkl="0xf0342400" layout="101" />
+      <HKL hkl="0xf0352400" layout="102L" />
+      <HKL hkl="0xf0362400" layout="102L" />
+      <HKL hkl="0xf03e2400" />
+      <HKL hkl="0xf03f2400" />
+      <HKL hkl="0xf0402400" layout="102L" />
+      <HKL hkl="0xf0412400" layout="101" />
+      <HKL hkl="0xf0B32400" layout="101" />
+      <HKL hkl="0xf0B42400" layout="102L" />
+      <HKL hkl="0xf0B62400" layout="101" />
+      <HKL hkl="0xf0B82400" layout="102L" />
+      <HKL hkl="0xf0B92400" layout="101" />
+      <HKL hkl="0xf0B72400" layout="101" />
+      <HKL hkl="0xf0BA2400" layout="101" />
+      <HKL hkl="0xf0BB2400" layout="102L" />
+    </Keyboard>
+
+    <Keyboard langid="0x2800" description="Reserved langid" >
+      <HKL hkl="0xf0302800" />
+      <HKL hkl="0xf0312800" layout="101" />
+      <HKL hkl="0xf0322800" layout="102L" />
+      <HKL hkl="0xf0342800" layout="101" />
+      <HKL hkl="0xf0352800" layout="102L" />
+      <HKL hkl="0xf0362800" layout="102L" />
+      <HKL hkl="0xf03e2800" />
+      <HKL hkl="0xf03f2800" />
+      <HKL hkl="0xf0402800" layout="102L" />
+      <HKL hkl="0xf0412800" layout="101" />
+      <HKL hkl="0xf0B32800" layout="101" />
+      <HKL hkl="0xf0B42800" layout="102L" />
+      <HKL hkl="0xf0B62800" layout="101" />
+      <HKL hkl="0xf0B82800" layout="102L" />
+      <HKL hkl="0xf0B92800" layout="101" />
+      <HKL hkl="0xf0B72800" layout="101" />
+      <HKL hkl="0xf0BA2800" layout="101" />
+      <HKL hkl="0xf0BB2800" layout="102L" />
+    </Keyboard>
+
+    <Keyboard langid="0x2c00" description="Reserved langid" >
+      <HKL hkl="0xf0302c00" />
+      <HKL hkl="0xf0312c00" layout="101" />
+      <HKL hkl="0xf0322c00" layout="102L" />
+      <HKL hkl="0xf0342c00" layout="101" />
+      <HKL hkl="0xf0352c00" layout="102L" />
+      <HKL hkl="0xf0362c00" layout="102L" />
+      <HKL hkl="0xf03e2c00" />
+      <HKL hkl="0xf03f2c00" />
+      <HKL hkl="0xf0402c00" layout="102L" />
+      <HKL hkl="0xf0412c00" layout="101" />
+      <HKL hkl="0xf0B32c00" layout="101" />
+      <HKL hkl="0xf0B42c00" layout="102L" />
+      <HKL hkl="0xf0B62c00" layout="101" />
+      <HKL hkl="0xf0B82c00" layout="102L" />
+      <HKL hkl="0xf0B92c00" layout="101" />
+      <HKL hkl="0xf0B72c00" layout="101" />
+      <HKL hkl="0xf0BA2c00" layout="101" />
+      <HKL hkl="0xf0BB2c00" layout="102L" />
+    </Keyboard>
+
+</Keyboards>

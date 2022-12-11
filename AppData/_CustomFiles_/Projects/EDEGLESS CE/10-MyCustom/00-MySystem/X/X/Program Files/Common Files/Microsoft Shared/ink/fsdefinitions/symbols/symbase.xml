@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<KeyDefinitions   modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="10101" payloadType="Unicode" primary="!" />
+<Key  Id="10102" payloadType="Unicode" primary="@" />
+<Key  Id="10103" payloadType="Unicode" primary="°" />
+<Key  Id="10104" payloadType="Unicode" primary="¢" />
+<Key  Id="10105" payloadType="Unicode" primary="-" />
+<Key  Id="10106" payloadType="Unicode" primary="_" />
+<Key  Id="10107" payloadType="Unicode" primary="+" />
+<Key  Id="10108" payloadType="Unicode" primary="=" />
+<Key  Id="10109" payloadType="Unicode" primary="(" />
+<Key  Id="10110" payloadType="Unicode" primary=")" />
+<Key  Id="10111" payloadType="Unicode" primary="#" />
+<Key  Id="10112" payloadType="Unicode" primary="&amp;" />
+<Key  Id="10113" payloadType="Unicode" primary="$" />
+<Key  Id="10114" payloadType="Unicode" primary="€" />
+<Key  Id="10115" payloadType="Unicode" primary="´" font1="2" bold1="true"/>
+<Key  Id="10116" payloadType="Unicode" primary="`" font1="2" bold1="true"/>
+<Key  Id="10117" payloadType="Unicode" primary="~" />
+<Key  Id="10118" payloadType="Unicode" primary="?" />
+<Key  Id="10119" payloadType="Unicode" primary="/" />
+<Key  Id="10120" payloadType="Unicode" primary="\" />
+<Key  Id="10121" payloadType="Unicode" primary="%" />
+<Key  Id="10122" payloadType="Unicode" primary="*" font1="2"/>
+<Key  Id="10123" payloadType="Unicode" primary="¥" />
+<Key  Id="10124" payloadType="Unicode" primary="£" />
+<Key  Id="10125" payloadType="Unicode" primary="{" />
+<Key  Id="10126" payloadType="Unicode" primary="}" />
+<Key  Id="10127" payloadType="Unicode" primary="'" font1="2" bold1="true"/>
+<Key  Id="10128" payloadType="Unicode" primary="&quot;" font1="2" bold1="true"/>
+<Key  Id="10129" payloadType="Unicode" primary=";" font1="2" bold1="true"/>
+<Key  Id="10130" payloadType="Unicode" primary=":" font1="2" bold1="true"/>
+<Key  Id="10131" payloadType="Unicode" primary="^" />
+<Key  Id="10132" payloadType="Unicode" primary="|" />
+<Key  Id="10133" payloadType="Unicode" primary="¿" />
+<Key  Id="10134" payloadType="Unicode" primary="¡" />
+<Key  Id="10135" payloadType="Unicode" primary="[" />
+<Key  Id="10136" payloadType="Unicode" primary="]" />
+<Key  Id="10137" payloadType="Unicode" primary="&lt;" />
+<Key  Id="10138" payloadType="Unicode" primary="&gt;" />
+<Key  Id="10139" payloadType="Unicode" primary="," font1="2" bold1="true"/>
+<Key  Id="10140" payloadType="Unicode" primary="." font1="2" bold1="true"/>
+<Key  Id="2a" modifierType="Sticky" modifierName="Shift" accessibilityName="15033" repeat="0"/>
+<Key  Id="10400" payloadType="Unicode" primary = "0" />
+<Key  Id="10401" payloadType="Unicode" primary = "1" />
+<Key  Id="10402" payloadType="Unicode" primary = "2" />
+<Key  Id="10403" payloadType="Unicode" primary = "3" />
+<Key  Id="10404" payloadType="Unicode" primary = "4" />
+<Key  Id="10405" payloadType="Unicode" primary = "5" />
+<Key  Id="10406" payloadType="Unicode" primary = "6" />
+<Key  Id="10407" payloadType="Unicode" primary = "7" />
+<Key  Id="10408" payloadType="Unicode" primary = "8" />
+<Key  Id="10409" payloadType="Unicode" primary = "9" />
+<Key  Id="10414" payloadType="Unicode" />
+<Key  Id="10501" accessibilityName="15216" repeat="0"/>
+<Key  Id="e" accessibilityName="15030" />
+<Key  Id="10500" modifierType="Locking" modifierName="Numbers" payloadType="AppEvent" payload="1" accessibilityName="15063" repeat="0"/>
+<Key  Id="1c" accessibilityName="15032" />
+<Key  Id="CB" accessibilityName="15047" extended="true" />
+<Key  Id="CD" accessibilityName="15048" extended="true" />
+<Key  Id="39" accessibilityName="15041" />
+</State> 
+</KeyDefinitions>

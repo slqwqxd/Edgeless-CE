@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<KeyDefinitions  baseDefinition="base" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="f1" payloadType="VKCode" payload="19" primary="한자 " accessibilityName="15053" repeat="0"/>
+<Key  Id="f2" payloadType="VKCode" payload="15" primary="한/영" accessibilityName="15054" repeat="0"/>
+</State> 
+</KeyDefinitions>
