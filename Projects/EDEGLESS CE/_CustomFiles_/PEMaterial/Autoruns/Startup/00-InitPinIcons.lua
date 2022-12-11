@@ -1,1 +1,0 @@
-Taskbar:Pin('Explorer.exe')
