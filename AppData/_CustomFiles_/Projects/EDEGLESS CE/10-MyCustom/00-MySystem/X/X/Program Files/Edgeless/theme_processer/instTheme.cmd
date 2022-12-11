@@ -5,9 +5,9 @@ set /p lastETH=<X:\Users\Theme\Path\eth.txt
 if not defined lastETH set lastETH=X:\Edgeless自定义主题.eth
 :begin
 del /f /q Inspath.txt
-for %%1 in (Z Y X W V U T S R Q P O N M L K J I H G F E D C ) do if exist %%1:\FirPE echo %%1>Inspath.txt
+for %%1 in (Z Y X W V U T S R Q P O N M L K J I H G F E D C ) do if exist %%1:\Edgeless\version.txt echo %%1>Inspath.txt
 set /p Upath=<Inspath.txt
-echo %time% 主题安装程序-使用%Upath%作为FirPE盘符 >>X:\Users\Log.txt
+echo %time% 主题安装程序-使用%Upath%作为Edgeless盘符 >>X:\Users\Log.txt
 if not exist Inspath.txt goto wait
 if not defined Upath goto wait
 if not exist %Upath%:\ goto wait
@@ -54,7 +54,7 @@ if exist %Upath%:\Edgeless\wp_backup.jpg del /f /q %Upath%:\Edgeless\wp_backup.j
 if exist %Upath%:\Edgeless\wp.jpg ren %Upath%:\Edgeless\wp.jpg wp_backup.jpg
 copy /y X:\Users\Theme\ThemePack_unpack\WallPaper.jpg %Upath%:\Edgeless\wp.jpg
 
-if exist X:\Users\Theme\ThemePack_unpack\LoadScreen.els "%ProgramFiles%\7-ZIP\7z.exe" x X:\Users\Theme\ThemePack_unpack\LoadScreen.els -o%Upath%:\Edgeless\Default\LoadScreen -aoa
+if exist X:\Users\Theme\ThemePack_unpack\LoadScreen.els "%ProgramFiles%\7-Zip\7z.exe" x X:\Users\Theme\ThemePack_unpack\LoadScreen.els -o%Upath%:\Edgeless\Default\LoadScreen -aoa
 
 cd /d X:\Windows\System32
 if exist %Upath%:\Edgeless\Default call "X:\Program Files\Edgeless\dynamic_creator\dynamic_tip.cmd" 3000 主题安装程序 主题包已安装至%Upath%分区
@@ -145,7 +145,7 @@ if not exist %Upath%:\Edgeless\Default\LoadScreen md %Upath%:\Edgeless\Default\L
 if exist %Upath%:\Edgeless\Default\LoadScreen\*.jpg echo %time% 主题安装程序-删除%Upath%分区的LoadScreen失败 >>X:\Users\Log.txt
 
 set /p pathL=<X:\Users\Theme\Path\els.txt
-"%ProgramFiles%\7-ZIP\7z.exe" x %pathL% -o%Upath%:\Edgeless\Default\LoadScreen -aoa
+"%ProgramFiles%\7-Zip\7z.exe" x %pathL% -o%Upath%:\Edgeless\Default\LoadScreen -aoa
 cd /d X:\Windows\System32
 if exist %Upath%:\Edgeless\Default\LoadScreen\*.jpg pecmd exec !"X:\Program Files\Edgeless\dynamic_creator\dynamic_tip.cmd" 3000 主题安装程序 成功安装LoadScreen资源包至%Upath%分区
 if not exist %Upath%:\Edgeless\Default\LoadScreen\*.jpg pecmd exec !"X:\Program Files\Edgeless\dynamic_creator\dynamic_tip.cmd" 10000 主题安装程序 尝试安装LoadScreen资源包至%Upath%分区失败
@@ -186,7 +186,7 @@ exit
 
 :wait
 cd /d X:\Windows\System32
-pecmd exec !"X:\Program Files\Edgeless\dynamic_creator\dynamic_tip.cmd" 10000 主题安装程序 未检测到合法的FirPE启动盘，安装失败
+pecmd exec !"X:\Program Files\Edgeless\dynamic_creator\dynamic_tip.cmd" 10000 主题安装程序 未检测到合法的Edgeless启动盘，安装失败
 exit
 
 

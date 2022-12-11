@@ -39,7 +39,7 @@ echo %1>X:\Users\Theme\Path\eth.txt
 
 pecmd file X:\Users\Theme\ThemePack_unpack
 md X:\Users\Theme\ThemePack_unpack
-"%ProgramFiles%\7-ZIP\7z.exe" x %a% -oX:\Users\Theme\ThemePack_unpack -aoa
+"%ProgramFiles%\7-Zip\7z.exe" x %a% -oX:\Users\Theme\ThemePack_unpack -aoa
 cd /d X:\Windows\System32
 pecmd exec "%ProgramFiles%\Edgeless\theme_processer\procThemePack.wcs"
 if exist X:\Users\Theme\ThemePack_unpack\Intro.wcs pecmd exec X:\Users\Theme\ThemePack_unpack\Intro.wcs
