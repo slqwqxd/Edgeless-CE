@@ -1,0 +1,9 @@
+call @windows1
+
+_SUB windows1,W320H160,插件加载工具,,X:\Users\Icon\type\plugin.ico,,
+
+ITEM Button1,L40T70W80H30,是,team exec =cmd /c "md X:\Users\load7zf"|kill \插件加载工具,0
+ITEM Button2,L190T70W80H30,否,kill \插件加载工具,0
+
+LABE Label1,L60T20W300H20,是否将这个文件作为插件包加载？
+_END
