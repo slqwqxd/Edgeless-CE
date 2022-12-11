@@ -1,0 +1,13 @@
+.jstree-default .jstree-node {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.jstree-default .jstree-anchor {
+    height: 60px;
+    line-height: 60px;
+}
+
+#patch_html fieldset legend {
+    font-size: 40px;
+}
