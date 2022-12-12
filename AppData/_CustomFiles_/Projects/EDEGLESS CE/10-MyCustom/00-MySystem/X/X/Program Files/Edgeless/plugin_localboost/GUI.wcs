@@ -13,10 +13,10 @@ BROW Tag,*,,Ñ¡Ôñ°²×°ÅÌ·û
 MSTR disk=0,1,%Tag%
 IFEX %disk%:\<2048,call retry1
 IFEX |%disk%==X,call retry2
-IFEX %disk%:\FirPE,call retry3
+IFEX %disk%:\Edgeless\version.txt,call retry3
 FIND $%Tag%=,!
 {
-    IFEX %disk%:\FirPE,!
+    IFEX %disk%:\Edgeless\version.txt,!
     {
         IFEX [%disk%:\>=2048 & |%disk%<>X],call set
     }
