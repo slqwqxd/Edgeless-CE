@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<KeyDefinitions   modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="10600" modifierName="Options" accessibilityName="15066" payloadType="AppEvent" payload="1" />
+<Key  Id="10601" modifierName="Help"    accessibilityName="15067"    payloadType="AppEvent" payload="2" />
+</State> 
+</KeyDefinitions>

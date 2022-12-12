@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards  layout="Sym" keydef="Symbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\TabletPC\KeyDefinition\Keyboard Definition File\keyboardDefSchema.xsd" >
+    <Keyboard langid="0x0404" keydef="ea-sym">
+    </Keyboard>
+    <Keyboard langid="0x0804" keydef="ea-sym" >
+    </Keyboard>
+    <Keyboard langid="0x0c04"  keydef="ea-sym" >
+    </Keyboard>
+    <Keyboard langid="0x0411" keydef="ja-jp-sym" >
+    </Keyboard>
+    <Keyboard langid="0x0412" keydef="ea-sym" >
+    </Keyboard>
+</Keyboards>

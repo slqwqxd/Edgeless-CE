@@ -1,0 +1,14 @@
+wait 3000
+//删除Imdisk全局右键菜单
+REGI HKCR\*\shell\ImDiskMountFile\!
+
+//删除驱动器右键菜单多余内容
+REGI HKCR\Drive\shell\cmd\!
+REGI HKCR\Drive\shell\ImDiskSaveImage\!
+REGI HKCR\Drive\shell\ImDiskUnmount\!
+REGI $HKCR\*\shell\Open with Notepad\\=使用记事本打开
+REGI $HKCR\*\shell\Open with Notepad\\Icon=X:\Windows\System32\notepad.exe,0
+REGI $HKCR\*\shell\Open with Notepad\command\\=notepad.exe "%%1"
+//增加ept支持
+EXEC !setx.exe PATH "X:\Program Files\Edgeless\plugin_ept"
+exec !X:\PEMaterial\EnableTermServiceFeature.bat

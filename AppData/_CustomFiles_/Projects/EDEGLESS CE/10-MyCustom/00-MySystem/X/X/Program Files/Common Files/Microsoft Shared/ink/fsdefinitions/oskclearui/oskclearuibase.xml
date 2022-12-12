@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<KeyDefinitions modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\KeyDefinitionSchema.xsd">
+  <State modifier="Any">
+    <Key Id="10700" accessibilityName="15407" payloadType="AppEvent" payload="1" />
+    <Key Id="10701" accessibilityName="15408" payloadType="AppEvent" payload="1" />
+    <Key Id="10702" accessibilityName="15409" payloadType="AppEvent" payload="1" />
+    <Key Id="10703" accessibilityName="15405" payloadType="AppEvent" payload="1" modifierType="Locking" modifierName="dock" repeat="0" />
+    <Key Id="10704" accessibilityName="15406" payloadType="AppEvent" payload="1" />
+  </State>
+</KeyDefinitions>

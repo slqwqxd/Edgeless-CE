@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<KeyDefinitions   modifierType="Normal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+  <State modifier="Any">
+    <Key  Id="45" modifierType="Locking" modifierName="NumLock" extended="true" repeat="0" />
+    <Key  Id="10650" payload="1c" extended="true" />
+    <Key  Id="10651" payload="35" extended="true" />
+    <Key  Id="10652" payload="37" />
+    <Key  Id="10653" payload="4a" />
+    <Key  Id="10654" payload="4e" />
+    <Key  Id="10655" accessibilityName="15057" payload="49" />
+    <Key  Id="10656" accessibilityName="15058" payload="51" />
+    <Key  Id="10657" payload="47" />
+    <Key  Id="10658" payload="4f" />
+    <Key  Id="10659" accessibilityName="15047" payload="4b" />
+    <Key  Id="10660" accessibilityName="15046" payload="48" />
+    <Key  Id="10661" accessibilityName="15048" payload="4d" />
+    <Key  Id="10662" accessibilityName="15045" payload="50" />
+    <Key  Id="10663" accessibilityName="15060" payload="52" />
+    <Key  Id="10664" payload="4c" />
+    <Key  Id="10665" accessibilityName="15042" payload="53" />
+  </State>
+  <State modifier="NumLock">
+    <Key  Id="10655" accessibilityName="15080" payload="49" />
+    <Key  Id="10656" accessibilityName="15074" payload="51" />
+    <Key  Id="10657" payload="47" />
+    <Key  Id="10658" payload="4f" />
+    <Key  Id="10659" accessibilityName="15075" payload="4b" />
+    <Key  Id="10660" accessibilityName="15079" payload="48" />
+    <Key  Id="10661" accessibilityName="15077" payload="4d" />
+    <Key  Id="10662" accessibilityName="15073" payload="50" />
+    <Key  Id="10663" accessibilityName="15081" payload="52" />
+    <Key  Id="10664" payload="4c" />
+    <Key  Id="10665" accessibilityName="15082" payload="53" />
+  </State>  
+</KeyDefinitions>

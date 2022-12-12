@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<KeyDefinitions  baseDefinition="base_altgr" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+</KeyDefinitions>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<KeyDefinitions   modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="10500" modifierType="Locking" modifierName="Numbers" payloadType="AppEvent" payload="1" accessibilityName="15063" repeat="0"/>
+<Key  Id="10501" accessibilityName="15216" repeat="0"/>
+<Key  Id="e" accessibilityName="15030" />
+<Key  Id="f" accessibilityName="15031" />
+<Key  Id="1c" accessibilityName="15032" />
+<Key  Id="d3" accessibilityName="15042" extended="true" />
+<Key  Id="39" accessibilityName="15041" />
+<Key  Id="CB" accessibilityName="15047" extended="true" />
+<Key  Id="CD" accessibilityName="15048" extended="true" />
+<Key  Id="2a" modifierType="Sticky" modifierName="Shift" accessibilityName="15033" repeat="0"/>
+</State> 
+</KeyDefinitions>

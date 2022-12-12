@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KeyDefinitions  baseDefinition="base" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Normal">
+<Key  Id="2"  primary= "言" tertiary="1" quaternary="!" />
+<Key  Id="3"  primary= "牛" tertiary="2" quaternary="@" />
+<Key  Id="4"  primary= "目" tertiary="3" quaternary="#" />
+<Key  Id="5"  primary= "四" tertiary="4" quaternary="$" />
+<Key  Id="6"  primary= "王" tertiary="5" quaternary="%" />
+<Key  Id="7"  primary= "門" tertiary="6" quaternary="^" />
+<Key  Id="8"  primary= "田" tertiary="7" quaternary="&amp;" />
+<Key  Id="9"  primary= "米" tertiary="8" quaternary="*" />
+<Key  Id="a"  primary= "足" tertiary="9" quaternary="(" />
+<Key  Id="b"  primary= "金" tertiary="0" quaternary=")" />
+<Key  Id="c"  primary= "鄉" tertiary="-" quaternary="_" />
+<Key  Id="d"  primary= "" tertiary="="  quaternary="+" />
+<Key  Id="10" primary="石"  tertiary="q"/>
+<Key  Id="11" primary="山"  tertiary="w"/>
+<Key  Id="12" primary="一"  tertiary="e"/>
+<Key  Id="13" primary="工"  tertiary="r"/>
+<Key  Id="14" primary="糸"  tertiary="t"/>
+<Key  Id="15" primary="火"  tertiary="y"/>
+<Key  Id="16" primary="艸"  tertiary="u"/>
+<Key  Id="17" primary="木"  tertiary="i"/>
+<Key  Id="18" primary="口"  tertiary="o"/>
+<Key  Id="19" primary="耳"  tertiary="p"/>
+<Key  Id="1a" primary="路"  tertiary="[" quaternary="{"/>
+<Key  Id="1b" primary="街"  tertiary="]" quaternary="}"/>
+<Key  Id="1e" primary="人"  tertiary="a"/>
+<Key  Id="1f" primary="革"  tertiary="s"/>
+<Key  Id="20" primary="日"  tertiary="d"/>
+<Key  Id="21" primary="土"  tertiary="f"/>
+<Key  Id="22" primary="手"  tertiary="g"/>
+<Key  Id="23" primary="鳥"  tertiary="h"/>
+<Key  Id="24" primary="月"  tertiary="j"/>
+<Key  Id="25" primary="立"  tertiary="k"/>
+<Key  Id="26" primary="女"  tertiary="l"/>
+<Key  Id="27" primary="虫"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="號"  tertiary="'" quaternary="&quot;"/>
+<Key  Id="29" primary="巷"  tertiary="`" quaternary="~"/>
+<Key  Id="2b" primary="鎮"  tertiary="\" quaternary="|"/>
+<Key  Id="2c" primary="心"  tertiary="z"/>
+<Key  Id="2d" primary="水"  tertiary="x"/>
+<Key  Id="2e" primary="鹿"  tertiary="c"/>
+<Key  Id="2f" primary="禾"  tertiary="v"/>
+<Key  Id="30" primary="馬"  tertiary="b"/>
+<Key  Id="31" primary="魚"  tertiary="n"/>
+<Key  Id="32" primary="雨"  tertiary="m"/>
+<Key  Id="33" primary="力"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="舟"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="竹"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Shift">
+<Key  Id="2"  primary= "言" tertiary="1" quaternary="!" />
+<Key  Id="3"  primary= "牛" tertiary="2" quaternary="@" />
+<Key  Id="4"  primary= "目" tertiary="3" quaternary="#" />
+<Key  Id="5"  primary= "四" tertiary="4" quaternary="$" />
+<Key  Id="6"  primary= "王" tertiary="5" quaternary="%" />
+<Key  Id="7"  primary= "門" tertiary="6" quaternary="^" />
+<Key  Id="8"  primary= "田" tertiary="7" quaternary="&amp;" />
+<Key  Id="9"  primary= "米" tertiary="8" quaternary="*" />
+<Key  Id="a"  primary= "足" tertiary="9" quaternary="(" />
+<Key  Id="b"  primary= "金" tertiary="0" quaternary=")" />
+<Key  Id="c"  primary= "鄉" tertiary="-" quaternary="_" />
+<Key  Id="d"  primary= "" tertiary="="  quaternary="+" />
+<Key  Id="10" primary="石"  tertiary="Q"/>
+<Key  Id="11" primary="山"  tertiary="W"/>
+<Key  Id="12" primary="一"  tertiary="E"/>
+<Key  Id="13" primary="工"  tertiary="R"/>
+<Key  Id="14" primary="糸"  tertiary="T"/>
+<Key  Id="15" primary="火"  tertiary="Y"/>
+<Key  Id="16" primary="艸"  tertiary="U"/>
+<Key  Id="17" primary="木"  tertiary="I"/>
+<Key  Id="18" primary="口"  tertiary="O"/>
+<Key  Id="19" primary="耳"  tertiary="P"/>
+<Key  Id="1a" primary="路"  tertiary="[" quaternary="{"/>
+<Key  Id="1b" primary="街"  tertiary="]" quaternary="}"/>
+<Key  Id="1e" primary="人"  tertiary="A"/>
+<Key  Id="1f" primary="革"  tertiary="S"/>
+<Key  Id="20" primary="日"  tertiary="D"/>
+<Key  Id="21" primary="土"  tertiary="F"/>
+<Key  Id="22" primary="手"  tertiary="G"/>
+<Key  Id="23" primary="鳥"  tertiary="H"/>
+<Key  Id="24" primary="月"  tertiary="J"/>
+<Key  Id="25" primary="立"  tertiary="K"/>
+<Key  Id="26" primary="女"  tertiary="L"/>
+<Key  Id="27" primary="虫"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="號"  tertiary="'" quaternary="&quot;"/>
+<Key  Id="29" primary="巷"  tertiary="`" quaternary="~"/>
+<Key  Id="2b" primary="鎮"  tertiary="\" quaternary="|"/>
+<Key  Id="2c" primary="心"  tertiary="Z"/>
+<Key  Id="2d" primary="水"  tertiary="X"/>
+<Key  Id="2e" primary="鹿"  tertiary="C"/>
+<Key  Id="2f" primary="禾"  tertiary="V"/>
+<Key  Id="30" primary="馬"  tertiary="B"/>
+<Key  Id="31" primary="魚"  tertiary="N"/>
+<Key  Id="32" primary="雨"  tertiary="M"/>
+<Key  Id="33" primary="力"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="舟"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="竹"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Caps">
+<Key  Id="2"  primary= "言" tertiary="1" quaternary="!" />
+<Key  Id="3"  primary= "牛" tertiary="2" quaternary="@" />
+<Key  Id="4"  primary= "目" tertiary="3" quaternary="#" />
+<Key  Id="5"  primary= "四" tertiary="4" quaternary="$" />
+<Key  Id="6"  primary= "王" tertiary="5" quaternary="%" />
+<Key  Id="7"  primary= "門" tertiary="6" quaternary="^" />
+<Key  Id="8"  primary= "田" tertiary="7" quaternary="&amp;" />
+<Key  Id="9"  primary= "米" tertiary="8" quaternary="*" />
+<Key  Id="a"  primary= "足" tertiary="9" quaternary="(" />
+<Key  Id="b"  primary= "金" tertiary="0" quaternary=")" />
+<Key  Id="c"  primary= "鄉" tertiary="-" quaternary="_" />
+<Key  Id="d"  primary= "" tertiary="="  quaternary="+" />
+<Key  Id="10" primary="石"  tertiary="Q"/>
+<Key  Id="11" primary="山"  tertiary="W"/>
+<Key  Id="12" primary="一"  tertiary="E"/>
+<Key  Id="13" primary="工"  tertiary="R"/>
+<Key  Id="14" primary="糸"  tertiary="T"/>
+<Key  Id="15" primary="火"  tertiary="Y"/>
+<Key  Id="16" primary="艸"  tertiary="U"/>
+<Key  Id="17" primary="木"  tertiary="I"/>
+<Key  Id="18" primary="口"  tertiary="O"/>
+<Key  Id="19" primary="耳"  tertiary="P"/>
+<Key  Id="1a" primary="路"  tertiary="[" quaternary="{"/>
+<Key  Id="1b" primary="街"  tertiary="]" quaternary="}"/>
+<Key  Id="1e" primary="人"  tertiary="A"/>
+<Key  Id="1f" primary="革"  tertiary="S"/>
+<Key  Id="20" primary="日"  tertiary="D"/>
+<Key  Id="21" primary="土"  tertiary="F"/>
+<Key  Id="22" primary="手"  tertiary="G"/>
+<Key  Id="23" primary="鳥"  tertiary="H"/>
+<Key  Id="24" primary="月"  tertiary="J"/>
+<Key  Id="25" primary="立"  tertiary="K"/>
+<Key  Id="26" primary="女"  tertiary="L"/>
+<Key  Id="27" primary="虫"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="號"  tertiary="'" quaternary="&quot;"/>
+<Key  Id="29" primary="巷"  tertiary="`" quaternary="~"/>
+<Key  Id="2b" primary="鎮"  tertiary="\" quaternary="|"/>
+<Key  Id="2c" primary="心"  tertiary="Z"/>
+<Key  Id="2d" primary="水"  tertiary="X"/>
+<Key  Id="2e" primary="鹿"  tertiary="C"/>
+<Key  Id="2f" primary="禾"  tertiary="V"/>
+<Key  Id="30" primary="馬"  tertiary="B"/>
+<Key  Id="31" primary="魚"  tertiary="N"/>
+<Key  Id="32" primary="雨"  tertiary="M"/>
+<Key  Id="33" primary="力"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="舟"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="竹"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Caps_Shift">
+<Key  Id="2"  primary= "言" tertiary="1" quaternary="!" />
+<Key  Id="3"  primary= "牛" tertiary="2" quaternary="@" />
+<Key  Id="4"  primary= "目" tertiary="3" quaternary="#" />
+<Key  Id="5"  primary= "四" tertiary="4" quaternary="$" />
+<Key  Id="6"  primary= "王" tertiary="5" quaternary="%" />
+<Key  Id="7"  primary= "門" tertiary="6" quaternary="^" />
+<Key  Id="8"  primary= "田" tertiary="7" quaternary="&amp;" />
+<Key  Id="9"  primary= "米" tertiary="8" quaternary="*" />
+<Key  Id="a"  primary= "足" tertiary="9" quaternary="(" />
+<Key  Id="b"  primary= "金" tertiary="0" quaternary=")" />
+<Key  Id="c"  primary= "鄉" tertiary="-" quaternary="_" />
+<Key  Id="d"  primary= "" tertiary="="  quaternary="+" />
+<Key  Id="10" primary="石"  tertiary="q"/>
+<Key  Id="11" primary="山"  tertiary="w"/>
+<Key  Id="12" primary="一"  tertiary="e"/>
+<Key  Id="13" primary="工"  tertiary="r"/>
+<Key  Id="14" primary="糸"  tertiary="t"/>
+<Key  Id="15" primary="火"  tertiary="y"/>
+<Key  Id="16" primary="艸"  tertiary="u"/>
+<Key  Id="17" primary="木"  tertiary="i"/>
+<Key  Id="18" primary="口"  tertiary="o"/>
+<Key  Id="19" primary="耳"  tertiary="p"/>
+<Key  Id="1a" primary="路"  tertiary="[" quaternary="{"/>
+<Key  Id="1b" primary="街"  tertiary="]" quaternary="}"/>
+<Key  Id="1e" primary="人"  tertiary="a"/>
+<Key  Id="1f" primary="革"  tertiary="s"/>
+<Key  Id="20" primary="日"  tertiary="d"/>
+<Key  Id="21" primary="土"  tertiary="f"/>
+<Key  Id="22" primary="手"  tertiary="g"/>
+<Key  Id="23" primary="鳥"  tertiary="h"/>
+<Key  Id="24" primary="月"  tertiary="j"/>
+<Key  Id="25" primary="立"  tertiary="k"/>
+<Key  Id="26" primary="女"  tertiary="l"/>
+<Key  Id="27" primary="虫"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="號"  tertiary="'" quaternary="&quot;"/>
+<Key  Id="29" primary="巷"  tertiary="`" quaternary="~"/>
+<Key  Id="2b" primary="鎮"  tertiary="\" quaternary="|"/>
+<Key  Id="2c" primary="心"  tertiary="z"/>
+<Key  Id="2d" primary="水"  tertiary="x"/>
+<Key  Id="2e" primary="鹿"  tertiary="c"/>
+<Key  Id="2f" primary="禾"  tertiary="v"/>
+<Key  Id="30" primary="馬"  tertiary="b"/>
+<Key  Id="31" primary="魚"  tertiary="n"/>
+<Key  Id="32" primary="雨"  tertiary="m"/>
+<Key  Id="33" primary="力"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="舟"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="竹"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Func">
+<Key  Id="2" payload="3b" primary="F1" accessibilityName="F1" />
+<Key  Id="3" payload="3c" primary="F2" accessibilityName="F2" />
+<Key  Id="4" payload="3d" primary="F3" accessibilityName="F3" />
+<Key  Id="5" payload="3e" primary="F4" accessibilityName="F4" />
+<Key  Id="6" payload="3f" primary="F5" accessibilityName="F5" />
+<Key  Id="7" payload="40" primary="F6" accessibilityName="F6" />
+<Key  Id="8" payload="41" primary="F7" accessibilityName="F7" />
+<Key  Id="9" payload="42" primary="F8" accessibilityName="F8" />
+<Key  Id="a" payload="43" primary="F9" accessibilityName="F9" />
+<Key  Id="b" payload="44" primary="F10" accessibilityName="F10" />
+<Key  Id="c" payload="57" primary="F11" accessibilityName="F11" />
+<Key  Id="d" payload="58" primary="F12" accessibilityName="F12" />
+</State>
+</KeyDefinitions>

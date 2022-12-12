@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KeyDefinitions baseDefinition="KeypadBase" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="10503" payloadType="VKCode" payload="1c" primary="Convert" repeat="0"/>
+</State> 
+</KeyDefinitions>
