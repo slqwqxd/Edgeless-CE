@@ -78,13 +78,13 @@ if %errorlevel%==3 echo L >L.txt
 echo %time% ept-install-用户确认开始安装，选择：%errorlevel%，开始下载 >>X:\Users\Log.txt
 echo ept-install 正在搜索本地仓库...
 for %%1 in (Z Y X W V U T S R Q P O N M L K J I H G F E D C ) do (
-    if exist "%%1:\FirPE\Resource\%name%_%ver%_%au%.7zf" copy /y "%%1:\FirPE\Resource\%name%_%ver%_%au%.7zf" X:\Users\ept\pack.7zf >nul
-    if exist "%%1:\FirPE\Resource\%name%_%ver%_%au%.7z" copy /y "%%1:\FirPE\Resource\%name%_%ver%_%au%.7z" X:\Users\ept\pack.7zf >nul
+    if exist "%%1:\Edgeless\Resource\%name%_%ver%_%au%.7zf" copy /y "%%1:\Edgeless\Resource\%name%_%ver%_%au%.7zf" X:\Users\ept\pack.7zf >nul
+    if exist "%%1:\Edgeless\Resource\%name%_%ver%_%au%.7z" copy /y "%%1:\Edgeless\Resource\%name%_%ver%_%au%.7z" X:\Users\ept\pack.7zf >nul
     if exist X:\Users\ept\pack.7zf echo ept-install 已从本地仓库搬运目标插件包
-    if exist X:\Users\ept\pack.7zf echo %time% ept-install-从本地仓库搬运："%%1:\FirPE\Resource\%name%_%ver%_%au%.7z（f）" >>X:\Users\Log.txt
+    if exist X:\Users\ept\pack.7zf echo %time% ept-install-从本地仓库搬运："%%1:\Edgeless\Resource\%name%_%ver%_%au%.7z（f）" >>X:\Users\Log.txt
 )
 if not exist X:\Users\ept\pack.7zf echo ept-install 正在向服务器发送下载请求...
-if not exist X:\Users\ept\pack.7zf "X:\Program Files\Edgeless\EasyDown\aria2c.exe" -x16 -c --check-certificate=false -d X:\Users\ept -o pack.7zf "http://s.edgeless.top/ept.php?name=%name%&version=%ver%&author=%au%&category=%cate:~0,-1%"
+if not exist X:\Users\ept\pack.7zf "X:\Program Files\Edgeless\EasyDown\aria2c.exe" --check-certificate=false -x16 -c -d X:\Users\ept -o pack.7zf "http://s.edgeless.top/ept.php?name=%name%&version=%ver%&author=%au%&category=%cate:~0,-1%"
 if not exist X:\Users\ept\pack.7zf (
     echo ept-install 下载失败，请检查网络或联系作者
     echo %time% ept-install-下载失败 >>X:\Users\Log.txt
@@ -112,8 +112,8 @@ if exist X:\Users\ept\upgrade\UpgradeTime.txt (
     if not defined Spath goto end
     if exist X:\Users\ept\upgrade\DontLoad.txt echo %time% ept-install-遇到标签：不需要加载 >>X:\Users\Log.txt
     if exist X:\Users\ept\upgrade\DontLoad.txt goto end
-    echo %time% ept-install-读取Edgeless盘符：%Spath%，加载目标路径："%Spath%:\FirPE\Resource\%name%_%ver%_%au%.7z" >>X:\Users\Log.txt
-    pecmd exec -min "%ProgramFiles%\Edgeless\plugin_loader\load.cmd" "%Spath%:\FirPE\Resource\%name%_%ver%_%au%.7z"
+    echo %time% ept-install-读取Edgeless盘符：%Spath%，加载目标路径："%Spath%:\Edgeless\Resource\%name%_%ver%_%au%.7z" >>X:\Users\Log.txt
+    pecmd exec -min "%ProgramFiles%\Edgeless\plugin_loader\load.cmd" "%Spath%:\Edgeless\Resource\%name%_%ver%_%au%.7z"
 )
 goto end
 

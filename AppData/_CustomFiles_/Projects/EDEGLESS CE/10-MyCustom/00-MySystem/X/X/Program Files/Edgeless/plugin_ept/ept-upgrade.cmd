@@ -7,7 +7,8 @@ if exist X:\Users\ept\upgrade\DontLoad.txt del /f /q X:\Users\ept\upgrade\DontLo
 if exist X:\Users\ept\upgrade\Retry.txt del /f /q X:\Users\ept\upgrade\Retry.txt
 
 ::É¨ÃèEdgelessÆô¶¯ÅÌ£¬µ«ÊÇ²»È¡³öÆäÖµ£¬½ö×ö¼ì²é
-for %%1 in (Z Y X W V U T S R Q P O N M L K J I H G F E D C ) do if exist %%1:\FirPE echo %%1>Spath.txt
+for %%1 in (Z Y X W V U T S R Q P O N M L K J I H G F E D C ) do if exist %%1:\Edgeless\version_Disk.txt echo %%1>Spath.txt
+for %%1 in (Z Y X W V U T S R Q P O N M L K J I H G F E D C ) do if exist %%1:\Edgeless\version.txt echo %%1>Spath.txt
 if not exist Spath.txt (
     echo ept-upgrade Çë²åÈëÓÐÐ§µÄEdgelessÆô¶¯ÅÌ
     echo %time% ept-upgrade-Ã»ÓÐ¼ì²âµ½Æô¶¯ÅÌ >>X:\Users\Log.txt
@@ -68,16 +69,16 @@ if exist X:\Users\ept\upgrade\DontLoad.txt echo %time% ept-upgrade-DontLoad.txt½
 echo Start >X:\Users\ept\upgrade\UpgradeTime.txt
 
 echo ept-upgrade ÕýÔÚ×ªÒÆ¹ýÆÚµÄ²å¼þ°ü...
-if not exist %EL_Part%:\FirPE\Resource\¹ýÆÚ²å¼þ°ü md %EL_Part%:\FirPE\Resource\¹ýÆÚ²å¼þ°ü
-if not exist %EL_Part%:\FirPE\Resource\¹ýÆÚ²å¼þ°ü (
+if not exist %EL_Part%:\Edgeless\Resource\¹ýÆÚ²å¼þ°ü md %EL_Part%:\Edgeless\Resource\¹ýÆÚ²å¼þ°ü
+if not exist %EL_Part%:\Edgeless\Resource\¹ýÆÚ²å¼þ°ü (
     echo ept-upgrade ¶Ô%EL_Part%ÅÌµÄ·ÃÎÊÔâ¾Ü¾ø£¬Çë¼ì²éºóÖØÊÔ
     echo %time% ept-upgrade-¶Ô%EL_Part%ÅÌµÄ·ÃÎÊÔâ¾Ü¾ø >>X:\Users\Log.txt
     goto endUpgrade
 )
 for /f "usebackq delims==; tokens=*" %%i in ("X:\Users\ept\upgrade\UpgradeList_Path.txt") do (
-    move /y "%%i" %EL_Part%:\FirPE\Resource\¹ýÆÚ²å¼þ°ü >nul
+    move /y "%%i" %EL_Part%:\Edgeless\Resource\¹ýÆÚ²å¼þ°ü >nul
 )
-ren %EL_Part%:\FirPE\Resource\¹ýÆÚ²å¼þ°ü\*.7z *.7zf
+ren %EL_Part%:\Edgeless\Resource\¹ýÆÚ²å¼þ°ü\*.7z *.7zf
 
 
 echo ept-upgrade ¿ªÊ¼ÏÂÔØ¸üÐÂ£¬ÊÖ¼úµã»÷´°¿ÚºÚÉ«²¿·Ö»áµ¼ÖÂ³ÌÐòÔÝÍ£
@@ -152,13 +153,13 @@ if not exist "X:\Users\ept\upgrade\RenameList_FullName.txt" (
 echo ept-upgrade »¹Ô­Î´Éý¼¶µÄ7zl£¬Ãûµ¥ÈçÏÂ£º >>X:\Users\Log.txt
 type X:\Users\ept\upgrade\RenameList_FullName.txt >>X:\Users\Log.txt
 for /f "usebackq delims==; tokens=*" %%i in ("X:\Users\ept\upgrade\RenameList_FullName.txt") do (
-    echo ept-upgrade ¼ì²é£º"%EL_Part%:\FirPE\Resource\%%i.7z" >>X:\Users\Log.txt
-    if exist "%EL_Part%:\FirPE\Resource\%%i.7z" echo ept-upgrade »¹Ô­Î´Éý¼¶µÄ7zl£º%%i >>X:\Users\Log.txt
-    if exist "%EL_Part%:\FirPE\Resource\%%i.7z" ren "%EL_Part%:\FirPE\Resource\%%i.7z" "%%i.7zl"
+    echo ept-upgrade ¼ì²é£º"%EL_Part%:\Edgeless\Resource\%%i.7z" >>X:\Users\Log.txt
+    if exist "%EL_Part%:\Edgeless\Resource\%%i.7z" echo ept-upgrade »¹Ô­Î´Éý¼¶µÄ7zl£º%%i >>X:\Users\Log.txt
+    if exist "%EL_Part%:\Edgeless\Resource\%%i.7z" ren "%EL_Part%:\Edgeless\Resource\%%i.7z" "%%i.7zl"
 )
 
 ::Æ¥Åä±»Éý¼¶µÄ7zlÎÄ¼þ£¬Éú³ÉÃûµ¥
-dir /b "%EL_Part%:\FirPE\Resource\*.7z">X:\Users\ept\upgrade\7zList.txt
+dir /b "%EL_Part%:\Edgeless\Resource\*.7z">X:\Users\ept\upgrade\7zList.txt
 echo ept-upgrade ×¼±¸»¹Ô­Éý¼¶µÄ7zl£¬Éú³É7zÃûµ¥£º >>X:\Users\Log.txt
 type X:\Users\ept\upgrade\7zList.txt >>X:\Users\Log.txt
 for /f "usebackq delims==; tokens=*" %%i in ("X:\Users\ept\upgrade\RenameList_Name.txt") do (
@@ -170,9 +171,9 @@ type X:\Users\ept\upgrade\7zlMatch.txt >>X:\Users\Log.txt
 
 ::¶ÔÃûµ¥ÉÏµÄËùÓÐ²å¼þÖØÃüÃûÍØÕ¹ÃûÎª7zl
 for /f "usebackq delims==; tokens=*" %%i in ("X:\Users\ept\upgrade\7zlMatch.txt") do (
-    echo ept-upgrade ¼ì²é£º"%EL_Part%:\FirPE\Resource\%%i" >>X:\Users\Log.txt
-    if exist "%EL_Part%:\FirPE\Resource\%%i" echo ept-upgrade »¹Ô­Éý¼¶µÄ7zl£º%%i >>X:\Users\Log.txt
-    if exist "%EL_Part%:\FirPE\Resource\%%i" ren "%EL_Part%:\FirPE\Resource\%%i" "%%il"
+    echo ept-upgrade ¼ì²é£º"%EL_Part%:\Edgeless\Resource\%%i" >>X:\Users\Log.txt
+    if exist "%EL_Part%:\Edgeless\Resource\%%i" echo ept-upgrade »¹Ô­Éý¼¶µÄ7zl£º%%i >>X:\Users\Log.txt
+    if exist "%EL_Part%:\Edgeless\Resource\%%i" ren "%EL_Part%:\Edgeless\Resource\%%i" "%%il"
 )
 
 :exitUpgrade

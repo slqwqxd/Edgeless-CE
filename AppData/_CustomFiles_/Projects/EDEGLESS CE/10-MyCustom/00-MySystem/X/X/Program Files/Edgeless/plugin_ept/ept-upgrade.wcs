@@ -1,17 +1,17 @@
 MDIR X:\Users\ept\upgrade
 
 //查找Edgeless盘符
-FORX !\FirPE,EL_Path,1,writ X:\Users\Log.txt,$+0,ept-upgrade 使用%EL_Path%作为Edgeless路径
+FORX !\Edgeless\version.txt,EL_Path,1,writ X:\Users\Log.txt,$+0,ept-upgrade 使用%EL_Path%作为Edgeless路径
 IFEX %EL_Path%,!
 {
-    FORX !\FirPE,EL_Path,1,writ X:\Users\Log.txt,$+0,ept-upgrade 使用%EL_Path%作为Edgeless路径
+    FORX !\Edgeless\version_Disk.txt,EL_Path,1,writ X:\Users\Log.txt,$+0,ept-upgrade 使用%EL_Path%作为Edgeless路径
 }
 MSTR EL_Part=0,1,%EL_Path%
 FILE X:\Users\ept\upgrade\*.txt
 WRIT X:\Users\ept\upgrade\EL_Part.txt,$+0,%EL_Part%
 
 //记录7zl文件的完整文件名和插件名，然后修改拓展名为7z
-forx %EL_Part%:\FirPE\Resource\*.7zl,filePath,0,
+forx %EL_Part%:\Edgeless\Resource\*.7zl,filePath,0,
 {
     //调用分割器获取插件名
     name fileName=%filePath%
@@ -28,7 +28,7 @@ forx %EL_Part%:\FirPE\Resource\*.7zl,filePath,0,
 }
 
 //遍历7z文件，检查是否有更新
-forx /s %EL_Part%:\FirPE\Resource\*.7z,filePath,0,
+forx /s %EL_Part%:\Edgeless\Resource\*.7z,filePath,0,
 {
     //调用分割器获取插件详情
     name fileName=%filePath%
