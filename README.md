@@ -1,5 +1,5 @@
 # Edgeless-CE Wimbuilder2 仓库
-此仓库为 Edgeless-CE 使用的 [Wimbuilder2](https://github.com/slorelee/wimbuilder2) 仓库，你可以使用此仓库的内容自行构建一个开源版本的 Edgeless-CE
+此仓库为 Edgeless-CE 使用的 [Wimbuilder2](https://github.com/slorelee/wimbuilder2) 仓库，你可以使用此仓库的内容自行构建一个使用MPL2.0协议开源版本的 Edgeless-CE
 
 ## 使用方法
 * 下载 Windows 11 21H2版 系统镜像并挂载
