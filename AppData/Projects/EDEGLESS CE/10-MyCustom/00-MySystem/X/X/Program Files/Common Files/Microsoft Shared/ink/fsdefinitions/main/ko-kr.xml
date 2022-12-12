@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<KeyDefinitions baseDefinition="base_kor" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+    <State modifier="Any">
+        <Key Id="29" payloadType="ScanCode" primary="`" quaternary="~" />
+        <Key Id="2" payloadType="ScanCode" primary="1" quaternary="!" />
+        <Key Id="3" payloadType="ScanCode" primary="2" quaternary="@" />
+        <Key Id="4" payloadType="ScanCode" primary="3" quaternary="#" />
+        <Key Id="5" payloadType="ScanCode" primary="4" quaternary="$" />
+        <Key Id="6" payloadType="ScanCode" primary="5" quaternary="%" />
+        <Key Id="7" payloadType="ScanCode" primary="6" quaternary="^" />
+        <Key Id="8" payloadType="ScanCode" primary="7" quaternary="&amp;" />
+        <Key Id="9" payloadType="ScanCode" primary="8" quaternary="*" />
+        <Key Id="a" payloadType="ScanCode" primary="9" quaternary="(" />
+        <Key Id="b" payloadType="ScanCode" primary="0" quaternary=")" />
+        <Key Id="c" payloadType="ScanCode" primary="-" quaternary="_" />
+        <Key Id="d" payloadType="ScanCode" primary="=" quaternary="+" />
+        <Key Id="10" payloadType="Scancode" primary="ㅂ" secondary="ㅃ" tertiary="q" />
+        <Key Id="11" payloadType="Scancode" primary="ㅈ" secondary="ㅉ" tertiary="w" />
+        <Key Id="12" payloadType="Scancode" primary="ㄷ" secondary="ㄸ" tertiary="e" />
+        <Key Id="13" payloadType="Scancode" primary="ㄱ" secondary="ㄲ" tertiary="r" />
+        <Key Id="14" payloadType="Scancode" primary="ㅅ" secondary="ㅆ" tertiary="t" />
+        <Key Id="15" payloadType="Scancode" primary="ㅛ" tertiary="y" />
+        <Key Id="16" payloadType="Scancode" primary="ㅕ" tertiary="u" />
+        <Key Id="17" payloadType="Scancode" primary="ㅑ" tertiary="i" />
+        <Key Id="18" payloadType="Scancode" primary="ㅐ" secondary="ㅒ" tertiary="o" />
+        <Key Id="19" payloadType="Scancode" primary="ㅔ" secondary="ㅖ" tertiary="p" />
+        <Key Id="1a" payloadType="Scancode" primary="[" quaternary="{" />
+        <Key Id="1b" payloadType="Scancode" primary="]" quaternary="}" />
+        <Key Id="1e" payloadType="Scancode" primary="ㅁ" tertiary="a" />
+        <Key Id="1f" payloadType="Scancode" primary="ㄴ" tertiary="s" />
+        <Key Id="20" payloadType="Scancode" primary="ㅇ" tertiary="d" />
+        <Key Id="21" payloadType="Scancode" primary="ㄹ" tertiary="f" />
+        <Key Id="22" payloadType="Scancode" primary="ㅎ" tertiary="g" />
+        <Key Id="23" payloadType="Scancode" primary="ㅗ" tertiary="h" />
+        <Key Id="24" payloadType="Scancode" primary="ㅓ" tertiary="j" />
+        <Key Id="25" payloadType="Scancode" primary="ㅏ" tertiary="k" />
+        <Key Id="26" payloadType="Scancode" primary="ㅣ" tertiary="l" />
+        <Key Id="27" payloadType="Scancode" primary=";" quaternary=":" />
+        <Key Id="28" payloadType="Scancode" primary="'" quaternary="&quot;" />
+        <Key Id="2b" payloadType="Scancode" primary="\" quaternary="|" />
+        <Key Id="2c" payloadType="Scancode" primary="ㅋ" tertiary="z" />
+        <Key Id="2d" payloadType="Scancode" primary="ㅌ" tertiary="x" />
+        <Key Id="2e" payloadType="Scancode" primary="ㅊ" tertiary="c" />
+        <Key Id="2f" payloadType="Scancode" primary="ㅍ" tertiary="v" />
+        <Key Id="30" payloadType="Scancode" primary="ㅠ" tertiary="b" />
+        <Key Id="31" payloadType="Scancode" primary="ㅜ" tertiary="n" />
+        <Key Id="32" payloadType="Scancode" primary="ㅡ" tertiary="m" />
+        <Key Id="33" payloadType="Scancode" primary="," quaternary="&lt;" />
+        <Key Id="34" payloadType="Scancode" primary="." quaternary="&gt;" />
+        <Key Id="35" payloadType="Scancode" primary="/" quaternary="?" />
+    </State>
+    <State modifier="Shift">
+        <Key Id="29" payloadType="ScanCode" primary="`" quaternary="~" />
+        <Key Id="2" payloadType="ScanCode" primary="1" quaternary="!" />
+        <Key Id="3" payloadType="ScanCode" primary="2" quaternary="@" />
+        <Key Id="4" payloadType="ScanCode" primary="3" quaternary="#" />
+        <Key Id="5" payloadType="ScanCode" primary="4" quaternary="$" />
+        <Key Id="6" payloadType="ScanCode" primary="5" quaternary="%" />
+        <Key Id="7" payloadType="ScanCode" primary="6" quaternary="^" />
+        <Key Id="8" payloadType="ScanCode" primary="7" quaternary="&amp;" />
+        <Key Id="9" payloadType="ScanCode" primary="8" quaternary="*" />
+        <Key Id="a" payloadType="ScanCode" primary="9" quaternary="(" />
+        <Key Id="b" payloadType="ScanCode" primary="0" quaternary=")" />
+        <Key Id="c" payloadType="ScanCode" primary="-" quaternary="_" />
+        <Key Id="d" payloadType="ScanCode" primary="=" quaternary="+" />
+        <Key Id="10" payloadType="Scancode" primary="ㅂ" secondary="ㅃ" tertiary="Q" />
+        <Key Id="11" payloadType="Scancode" primary="ㅈ" secondary="ㅉ" tertiary="W" />
+        <Key Id="12" payloadType="Scancode" primary="ㄷ" secondary="ㄸ" tertiary="E" />
+        <Key Id="13" payloadType="Scancode" primary="ㄱ" secondary="ㄲ" tertiary="R" />
+        <Key Id="14" payloadType="Scancode" primary="ㅅ" secondary="ㅆ" tertiary="T" />
+        <Key Id="15" payloadType="Scancode" primary="ㅛ" tertiary="Y" />
+        <Key Id="16" payloadType="Scancode" primary="ㅕ" tertiary="U" />
+        <Key Id="17" payloadType="Scancode" primary="ㅑ" tertiary="I" />
+        <Key Id="18" payloadType="Scancode" primary="ㅐ" secondary="ㅒ" tertiary="O" />
+        <Key Id="19" payloadType="Scancode" primary="ㅔ" secondary="ㅖ" tertiary="P" />
+        <Key Id="1a" payloadType="Scancode" primary="[" quaternary="{" />
+        <Key Id="1b" payloadType="Scancode" primary="]" quaternary="}" />        
+        <Key Id="1e" payloadType="Scancode" primary="ㅁ" tertiary="A" />
+        <Key Id="1f" payloadType="Scancode" primary="ㄴ" tertiary="S" />
+        <Key Id="20" payloadType="Scancode" primary="ㅇ" tertiary="D" />
+        <Key Id="21" payloadType="Scancode" primary="ㄹ" tertiary="F" />
+        <Key Id="22" payloadType="Scancode" primary="ㅎ" tertiary="G" />
+        <Key Id="23" payloadType="Scancode" primary="ㅗ" tertiary="H" />
+        <Key Id="24" payloadType="Scancode" primary="ㅓ" tertiary="J" />
+        <Key Id="25" payloadType="Scancode" primary="ㅏ" tertiary="K" />
+        <Key Id="26" payloadType="Scancode" primary="ㅣ" tertiary="L" />
+        <Key Id="27" payloadType="Scancode" primary=";" quaternary=":" />
+        <Key Id="28" payloadType="Scancode" primary="'" quaternary="&quot;" />        
+        <Key Id="2b" payloadType="Scancode" primary="\" quaternary="|" />
+        <Key Id="2c" payloadType="Scancode" primary="ㅋ" tertiary="Z" />
+        <Key Id="2d" payloadType="Scancode" primary="ㅌ" tertiary="X" />
+        <Key Id="2e" payloadType="Scancode" primary="ㅊ" tertiary="C" />
+        <Key Id="2f" payloadType="Scancode" primary="ㅍ" tertiary="V" />
+        <Key Id="30" payloadType="Scancode" primary="ㅠ" tertiary="B" />
+        <Key Id="31" payloadType="Scancode" primary="ㅜ" tertiary="N" />
+        <Key Id="32" payloadType="Scancode" primary="ㅡ" tertiary="M" />
+        <Key Id="33" payloadType="Scancode" primary="," quaternary="&lt;" />
+        <Key Id="34" payloadType="Scancode" primary="." quaternary="&gt;" />
+        <Key Id="35" payloadType="Scancode" primary="/" quaternary="?" />        
+    </State>
+    <State modifier="Caps">
+        <Key Id="29" payloadType="ScanCode" primary="`" quaternary="~" />
+        <Key Id="2" payloadType="ScanCode" primary="1" quaternary="!" />
+        <Key Id="3" payloadType="ScanCode" primary="2" quaternary="@" />
+        <Key Id="4" payloadType="ScanCode" primary="3" quaternary="#" />
+        <Key Id="5" payloadType="ScanCode" primary="4" quaternary="$" />
+        <Key Id="6" payloadType="ScanCode" primary="5" quaternary="%" />
+        <Key Id="7" payloadType="ScanCode" primary="6" quaternary="^" />
+        <Key Id="8" payloadType="ScanCode" primary="7" quaternary="&amp;" />
+        <Key Id="9" payloadType="ScanCode" primary="8" quaternary="*" />
+        <Key Id="a" payloadType="ScanCode" primary="9" quaternary="(" />
+        <Key Id="b" payloadType="ScanCode" primary="0" quaternary=")" />
+        <Key Id="c" payloadType="ScanCode" primary="-" quaternary="_" />
+        <Key Id="d" payloadType="ScanCode" primary="=" quaternary="+" />
+        <Key Id="10" payloadType="Scancode" primary="ㅂ" secondary="ㅃ" tertiary="Q" />
+        <Key Id="11" payloadType="Scancode" primary="ㅈ" secondary="ㅉ" tertiary="W" />
+        <Key Id="12" payloadType="Scancode" primary="ㄷ" secondary="ㄸ" tertiary="E" />
+        <Key Id="13" payloadType="Scancode" primary="ㄱ" secondary="ㄲ" tertiary="R" />
+        <Key Id="14" payloadType="Scancode" primary="ㅅ" secondary="ㅆ" tertiary="T" />
+        <Key Id="15" payloadType="Scancode" primary="ㅛ" tertiary="Y" />
+        <Key Id="16" payloadType="Scancode" primary="ㅕ" tertiary="U" />
+        <Key Id="17" payloadType="Scancode" primary="ㅑ" tertiary="I" />
+        <Key Id="18" payloadType="Scancode" primary="ㅐ" secondary="ㅒ" tertiary="O" />
+        <Key Id="19" payloadType="Scancode" primary="ㅔ" secondary="ㅖ" tertiary="P" />
+        <Key Id="1a" payloadType="Scancode" primary="[" quaternary="{" />
+        <Key Id="1b" payloadType="Scancode" primary="]" quaternary="}" />        
+        <Key Id="1e" payloadType="Scancode" primary="ㅁ" tertiary="A" />
+        <Key Id="1f" payloadType="Scancode" primary="ㄴ" tertiary="S" />
+        <Key Id="20" payloadType="Scancode" primary="ㅇ" tertiary="D" />
+        <Key Id="21" payloadType="Scancode" primary="ㄹ" tertiary="F" />
+        <Key Id="22" payloadType="Scancode" primary="ㅎ" tertiary="G" />
+        <Key Id="23" payloadType="Scancode" primary="ㅗ" tertiary="H" />
+        <Key Id="24" payloadType="Scancode" primary="ㅓ" tertiary="J" />
+        <Key Id="25" payloadType="Scancode" primary="ㅏ" tertiary="K" />
+        <Key Id="26" payloadType="Scancode" primary="ㅣ" tertiary="L" />
+        <Key Id="27" payloadType="Scancode" primary=";" quaternary=":" />
+        <Key Id="28" payloadType="Scancode" primary="'" quaternary="&quot;" />        
+        <Key Id="2b" payloadType="Scancode" primary="\" quaternary="|" />        
+        <Key Id="2c" payloadType="Scancode" primary="ㅋ" tertiary="Z" />
+        <Key Id="2d" payloadType="Scancode" primary="ㅌ" tertiary="X" />
+        <Key Id="2e" payloadType="Scancode" primary="ㅊ" tertiary="C" />
+        <Key Id="2f" payloadType="Scancode" primary="ㅍ" tertiary="V" />
+        <Key Id="30" payloadType="Scancode" primary="ㅠ" tertiary="B" />
+        <Key Id="31" payloadType="Scancode" primary="ㅜ" tertiary="N" />
+        <Key Id="32" payloadType="Scancode" primary="ㅡ" tertiary="M" />
+        <Key Id="33" payloadType="Scancode" primary="," quaternary="&lt;" />
+        <Key Id="34" payloadType="Scancode" primary="." quaternary="&gt;" />
+        <Key Id="35" payloadType="Scancode" primary="/" quaternary="?" />        
+    </State>
+    <State modifier="Caps_Shift">
+        <Key Id="29" payloadType="ScanCode" primary="`" quaternary="~" />
+        <Key Id="2" payloadType="ScanCode" primary="1" quaternary="!" />
+        <Key Id="3" payloadType="ScanCode" primary="2" quaternary="@" />
+        <Key Id="4" payloadType="ScanCode" primary="3" quaternary="#" />
+        <Key Id="5" payloadType="ScanCode" primary="4" quaternary="$" />
+        <Key Id="6" payloadType="ScanCode" primary="5" quaternary="%" />
+        <Key Id="7" payloadType="ScanCode" primary="6" quaternary="^" />
+        <Key Id="8" payloadType="ScanCode" primary="7" quaternary="&amp;" />
+        <Key Id="9" payloadType="ScanCode" primary="8" quaternary="*" />
+        <Key Id="a" payloadType="ScanCode" primary="9" quaternary="(" />
+        <Key Id="b" payloadType="ScanCode" primary="0" quaternary=")" />
+        <Key Id="c" payloadType="ScanCode" primary="-" quaternary="_" />
+        <Key Id="d" payloadType="ScanCode" primary="=" quaternary="+" />
+        <Key Id="10" payloadType="Scancode" primary="ㅂ" secondary="ㅃ" tertiary="q" />
+        <Key Id="11" payloadType="Scancode" primary="ㅈ" secondary="ㅉ" tertiary="w" />
+        <Key Id="12" payloadType="Scancode" primary="ㄷ" secondary="ㄸ" tertiary="e" />
+        <Key Id="13" payloadType="Scancode" primary="ㄱ" secondary="ㄲ" tertiary="r" />
+        <Key Id="14" payloadType="Scancode" primary="ㅅ" secondary="ㅆ" tertiary="t" />
+        <Key Id="15" payloadType="Scancode" primary="ㅛ" tertiary="y" />
+        <Key Id="16" payloadType="Scancode" primary="ㅕ" tertiary="u" />
+        <Key Id="17" payloadType="Scancode" primary="ㅑ" tertiary="i" />
+        <Key Id="18" payloadType="Scancode" primary="ㅐ" secondary="ㅒ" tertiary="o" />
+        <Key Id="19" payloadType="Scancode" primary="ㅔ" secondary="ㅖ" tertiary="p" />
+        <Key Id="1a" payloadType="Scancode" primary="[" quaternary="{" />
+        <Key Id="1b" payloadType="Scancode" primary="]" quaternary="}" />        
+        <Key Id="1e" payloadType="Scancode" primary="ㅁ" tertiary="a" />
+        <Key Id="1f" payloadType="Scancode" primary="ㄴ" tertiary="s" />
+        <Key Id="20" payloadType="Scancode" primary="ㅇ" tertiary="d" />
+        <Key Id="21" payloadType="Scancode" primary="ㄹ" tertiary="f" />
+        <Key Id="22" payloadType="Scancode" primary="ㅎ" tertiary="g" />
+        <Key Id="23" payloadType="Scancode" primary="ㅗ" tertiary="h" />
+        <Key Id="24" payloadType="Scancode" primary="ㅓ" tertiary="j" />
+        <Key Id="25" payloadType="Scancode" primary="ㅏ" tertiary="k" />
+        <Key Id="26" payloadType="Scancode" primary="ㅣ" tertiary="l" />
+        <Key Id="27" payloadType="Scancode" primary=";" quaternary=":" />
+        <Key Id="28" payloadType="Scancode" primary="'" quaternary="&quot;" />        
+        <Key Id="2b" payloadType="Scancode" primary="\" quaternary="|" />        
+        <Key Id="2c" payloadType="Scancode" primary="ㅋ" tertiary="z" />
+        <Key Id="2d" payloadType="Scancode" primary="ㅌ" tertiary="x" />
+        <Key Id="2e" payloadType="Scancode" primary="ㅊ" tertiary="c" />
+        <Key Id="2f" payloadType="Scancode" primary="ㅍ" tertiary="v" />
+        <Key Id="30" payloadType="Scancode" primary="ㅠ" tertiary="b" />
+        <Key Id="31" payloadType="Scancode" primary="ㅜ" tertiary="n" />
+        <Key Id="32" payloadType="Scancode" primary="ㅡ" tertiary="m" />
+        <Key Id="33" payloadType="Scancode" primary="," quaternary="&lt;" />
+        <Key Id="34" payloadType="Scancode" primary="." quaternary="&gt;" />
+        <Key Id="35" payloadType="Scancode" primary="/" quaternary="?" />        
+    </State>    
+</KeyDefinitions>

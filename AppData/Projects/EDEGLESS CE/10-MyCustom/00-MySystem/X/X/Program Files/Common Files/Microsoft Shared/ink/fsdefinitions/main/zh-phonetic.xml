@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KeyDefinitions  baseDefinition="base" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Normal">
+<Key  Id="2"  primary="ㄅ"  tertiary= "1"  quaternary="!" />   
+<Key  Id="3"  primary="ㄉ"  tertiary= "2"  quaternary="@" />   
+<Key  Id="4"  primary="ˇ"   tertiary= "3"  quaternary="#" />   
+<Key  Id="5"  primary="ˋ"  tertiary= "4"  quaternary="$" />   
+<Key  Id="6"  primary="ㄓ"  tertiary= "5"  quaternary="%" />   
+<Key  Id="7"  primary="ˊ"  tertiary= "6"  quaternary="^" />   
+<Key  Id="8"  primary="˙"   tertiary= "7"  quaternary="&amp;" />   
+<Key  Id="9"  primary="ㄚ"  tertiary= "8"  quaternary="*" />   
+<Key  Id="a"  primary="ㄞ"  tertiary= "9"  quaternary="(" />   
+<Key  Id="b"  primary="ㄢ"  tertiary= "0"  quaternary=")" />   
+<Key  Id="c"  primary="ㄦ"  tertiary= "-"  quaternary="_" />   
+<Key  Id="d"  primary="="  quaternary="+" />
+<Key  Id="10" primary="ㄆ"  tertiary="q"/>
+<Key  Id="11" primary="ㄊ"  tertiary="w"/>
+<Key  Id="12" primary="ㄍ"  tertiary="e"/>
+<Key  Id="13" primary="ㄐ"  tertiary="r"/>
+<Key  Id="14" primary="ㄔ"  tertiary="t"/>
+<Key  Id="15" primary="ㄗ"  tertiary="y"/>
+<Key  Id="16" primary="一"  tertiary="u"/>
+<Key  Id="17" primary="ㄛ"  tertiary="i"/>
+<Key  Id="18" primary="ㄟ"  tertiary="o"/>
+<Key  Id="19" primary="ㄣ"  tertiary="p"/>
+<Key  Id="1a" primary="["   quaternary="{"/>
+<Key  Id="1b" primary="]"   quaternary="}"/>
+<Key  Id="1e" primary="ㄇ"  tertiary="a"/>
+<Key  Id="1f" primary="ㄋ"  tertiary="s"/>
+<Key  Id="20" primary="ㄎ"  tertiary="d"/>
+<Key  Id="21" primary="ㄑ"  tertiary="f"/>
+<Key  Id="22" primary="ㄕ"  tertiary="g"/>
+<Key  Id="23" primary="ㄘ"  tertiary="h"/>
+<Key  Id="24" primary="ㄨ"  tertiary="j"/>
+<Key  Id="25" primary="ㄜ"  tertiary="k"/>
+<Key  Id="26" primary="ㄠ"  tertiary="l"/>
+<Key  Id="27" primary="ㄤ"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="'"   quaternary="&quot;"/>
+<Key  Id="29" primary="`"   quaternary="~"/>
+<Key  Id="2b" primary="\"   quaternary="|"/>
+<Key  Id="2c" primary="ㄈ"  tertiary="z"/>
+<Key  Id="2d" primary="ㄌ"  tertiary="x"/>
+<Key  Id="2e" primary="ㄏ"  tertiary="c"/>
+<Key  Id="2f" primary="ㄒ"  tertiary="v"/>
+<Key  Id="30" primary="ㄖ"  tertiary="b"/>
+<Key  Id="31" primary="ㄙ"  tertiary="n"/>
+<Key  Id="32" primary="ㄩ"  tertiary="m"/>
+<Key  Id="33" primary="ㄝ"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="ㄡ"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="ㄥ"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Shift">
+<Key  Id="2"  primary="ㄅ"  tertiary= "1"  quaternary="!" />   
+<Key  Id="3"  primary="ㄉ"  tertiary= "2"  quaternary="@" />   
+<Key  Id="4"  primary="ˇ"   tertiary= "3"  quaternary="#" />   
+<Key  Id="5"  primary="ˋ"  tertiary= "4"  quaternary="$" />   
+<Key  Id="6"  primary="ㄓ"  tertiary= "5"  quaternary="%" />   
+<Key  Id="7"  primary="ˊ"  tertiary= "6"  quaternary="^" />   
+<Key  Id="8"  primary="˙"   tertiary= "7"  quaternary="&amp;" />   
+<Key  Id="9"  primary="ㄚ"  tertiary= "8"  quaternary="*" />   
+<Key  Id="a"  primary="ㄞ"  tertiary= "9"  quaternary="(" />   
+<Key  Id="b"  primary="ㄢ"  tertiary= "0"  quaternary=")" />   
+<Key  Id="c"  primary="ㄦ"  tertiary= "-"  quaternary="_" />   
+<Key  Id="d"  primary="="  quaternary="+" />
+<Key  Id="10" primary="ㄆ"  tertiary="Q"/>
+<Key  Id="11" primary="ㄊ"  tertiary="W"/>
+<Key  Id="12" primary="ㄍ"  tertiary="E"/>
+<Key  Id="13" primary="ㄐ"  tertiary="R"/>
+<Key  Id="14" primary="ㄔ"  tertiary="T"/>
+<Key  Id="15" primary="ㄗ"  tertiary="Y"/>
+<Key  Id="16" primary="一"  tertiary="U"/>
+<Key  Id="17" primary="ㄛ"  tertiary="I"/>
+<Key  Id="18" primary="ㄟ"  tertiary="O"/>
+<Key  Id="19" primary="ㄣ"  tertiary="P"/>
+<Key  Id="1a" primary="["   quaternary="{"/>
+<Key  Id="1b" primary="]"   quaternary="}"/>
+<Key  Id="1e" primary="ㄇ"  tertiary="A"/>
+<Key  Id="1f" primary="ㄋ"  tertiary="S"/>
+<Key  Id="20" primary="ㄎ"  tertiary="D"/>
+<Key  Id="21" primary="ㄑ"  tertiary="F"/>
+<Key  Id="22" primary="ㄕ"  tertiary="G"/>
+<Key  Id="23" primary="ㄘ"  tertiary="H"/>
+<Key  Id="24" primary="ㄨ"  tertiary="J"/>
+<Key  Id="25" primary="ㄜ"  tertiary="K"/>
+<Key  Id="26" primary="ㄠ"  tertiary="L"/>
+<Key  Id="27" primary="ㄤ"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="'"   quaternary="&quot;"/>
+<Key  Id="29" primary="`"   quaternary="~"/>
+<Key  Id="2b" primary="\"   quaternary="|"/>
+<Key  Id="2c" primary="ㄈ"  tertiary="Z"/>
+<Key  Id="2d" primary="ㄌ"  tertiary="X"/>
+<Key  Id="2e" primary="ㄏ"  tertiary="C"/>
+<Key  Id="2f" primary="ㄒ"  tertiary="V"/>
+<Key  Id="30" primary="ㄖ"  tertiary="B"/>
+<Key  Id="31" primary="ㄙ"  tertiary="N"/>
+<Key  Id="32" primary="ㄩ"  tertiary="M"/>
+<Key  Id="33" primary="ㄝ"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="ㄡ"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="ㄥ"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Caps">
+<Key  Id="2"  primary="ㄅ"  tertiary= "1"  quaternary="!" />   
+<Key  Id="3"  primary="ㄉ"  tertiary= "2"  quaternary="@" />   
+<Key  Id="4"  primary="ˇ"   tertiary= "3"  quaternary="#" />   
+<Key  Id="5"  primary="ˋ"  tertiary= "4"  quaternary="$" />   
+<Key  Id="6"  primary="ㄓ"  tertiary= "5"  quaternary="%" />   
+<Key  Id="7"  primary="ˊ"  tertiary= "6"  quaternary="^" />   
+<Key  Id="8"  primary="˙"   tertiary= "7"  quaternary="&amp;" />   
+<Key  Id="9"  primary="ㄚ"  tertiary= "8"  quaternary="*" />   
+<Key  Id="a"  primary="ㄞ"  tertiary= "9"  quaternary="(" />   
+<Key  Id="b"  primary="ㄢ"  tertiary= "0"  quaternary=")" />   
+<Key  Id="c"  primary="ㄦ"  tertiary= "-"  quaternary="_" />   
+<Key  Id="d"  primary="="  quaternary="+" />
+<Key  Id="10" primary="ㄆ"  tertiary="Q"/>
+<Key  Id="11" primary="ㄊ"  tertiary="W"/>
+<Key  Id="12" primary="ㄍ"  tertiary="E"/>
+<Key  Id="13" primary="ㄐ"  tertiary="R"/>
+<Key  Id="14" primary="ㄔ"  tertiary="T"/>
+<Key  Id="15" primary="ㄗ"  tertiary="Y"/>
+<Key  Id="16" primary="一"  tertiary="U"/>
+<Key  Id="17" primary="ㄛ"  tertiary="I"/>
+<Key  Id="18" primary="ㄟ"  tertiary="O"/>
+<Key  Id="19" primary="ㄣ"  tertiary="P"/>
+<Key  Id="1a" primary="["   quaternary="{"/>
+<Key  Id="1b" primary="]"   quaternary="}"/>
+<Key  Id="1e" primary="ㄇ"  tertiary="A"/>
+<Key  Id="1f" primary="ㄋ"  tertiary="S"/>
+<Key  Id="20" primary="ㄎ"  tertiary="D"/>
+<Key  Id="21" primary="ㄑ"  tertiary="F"/>
+<Key  Id="22" primary="ㄕ"  tertiary="G"/>
+<Key  Id="23" primary="ㄘ"  tertiary="H"/>
+<Key  Id="24" primary="ㄨ"  tertiary="J"/>
+<Key  Id="25" primary="ㄜ"  tertiary="K"/>
+<Key  Id="26" primary="ㄠ"  tertiary="L"/>
+<Key  Id="27" primary="ㄤ"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="'"   quaternary="&quot;"/>
+<Key  Id="29" primary="`"   quaternary="~"/>
+<Key  Id="2b" primary="\"   quaternary="|"/>
+<Key  Id="2c" primary="ㄈ"  tertiary="Z"/>
+<Key  Id="2d" primary="ㄌ"  tertiary="X"/>
+<Key  Id="2e" primary="ㄏ"  tertiary="C"/>
+<Key  Id="2f" primary="ㄒ"  tertiary="V"/>
+<Key  Id="30" primary="ㄖ"  tertiary="B"/>
+<Key  Id="31" primary="ㄙ"  tertiary="N"/>
+<Key  Id="32" primary="ㄩ"  tertiary="M"/>
+<Key  Id="33" primary="ㄝ"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="ㄡ"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="ㄥ"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Caps_Shift">
+<Key  Id="2"  primary="ㄅ"  tertiary= "1"  quaternary="!" />   
+<Key  Id="3"  primary="ㄉ"  tertiary= "2"  quaternary="@" />   
+<Key  Id="4"  primary="ˇ"   tertiary= "3"  quaternary="#" />   
+<Key  Id="5"  primary="ˋ"  tertiary= "4"  quaternary="$" />   
+<Key  Id="6"  primary="ㄓ"  tertiary= "5"  quaternary="%" />   
+<Key  Id="7"  primary="ˊ"  tertiary= "6"  quaternary="^" />   
+<Key  Id="8"  primary="˙"   tertiary= "7"  quaternary="&amp;" />   
+<Key  Id="9"  primary="ㄚ"  tertiary= "8"  quaternary="*" />   
+<Key  Id="a"  primary="ㄞ"  tertiary= "9"  quaternary="(" />   
+<Key  Id="b"  primary="ㄢ"  tertiary= "0"  quaternary=")" />   
+<Key  Id="c"  primary="ㄦ"  tertiary= "-"  quaternary="_" />   
+<Key  Id="d"  primary="="  quaternary="+" />
+<Key  Id="10" primary="ㄆ"  tertiary="q"/>
+<Key  Id="11" primary="ㄊ"  tertiary="w"/>
+<Key  Id="12" primary="ㄍ"  tertiary="e"/>
+<Key  Id="13" primary="ㄐ"  tertiary="r"/>
+<Key  Id="14" primary="ㄔ"  tertiary="t"/>
+<Key  Id="15" primary="ㄗ"  tertiary="y"/>
+<Key  Id="16" primary="一"  tertiary="u"/>
+<Key  Id="17" primary="ㄛ"  tertiary="i"/>
+<Key  Id="18" primary="ㄟ"  tertiary="o"/>
+<Key  Id="19" primary="ㄣ"  tertiary="p"/>
+<Key  Id="1a" primary="["   quaternary="{"/>
+<Key  Id="1b" primary="]"   quaternary="}"/>
+<Key  Id="1e" primary="ㄇ"  tertiary="a"/>
+<Key  Id="1f" primary="ㄋ"  tertiary="s"/>
+<Key  Id="20" primary="ㄎ"  tertiary="d"/>
+<Key  Id="21" primary="ㄑ"  tertiary="f"/>
+<Key  Id="22" primary="ㄕ"  tertiary="g"/>
+<Key  Id="23" primary="ㄘ"  tertiary="h"/>
+<Key  Id="24" primary="ㄨ"  tertiary="j"/>
+<Key  Id="25" primary="ㄜ"  tertiary="k"/>
+<Key  Id="26" primary="ㄠ"  tertiary="l"/>
+<Key  Id="27" primary="ㄤ"  tertiary=";" quaternary=":"/>
+<Key  Id="28" primary="'"   quaternary="&quot;"/>
+<Key  Id="29" primary="`"   quaternary="~"/>
+<Key  Id="2b" primary="\"   quaternary="|"/>
+<Key  Id="2c" primary="ㄈ"  tertiary="z"/>
+<Key  Id="2d" primary="ㄌ"  tertiary="x"/>
+<Key  Id="2e" primary="ㄏ"  tertiary="c"/>
+<Key  Id="2f" primary="ㄒ"  tertiary="v"/>
+<Key  Id="30" primary="ㄖ"  tertiary="b"/>
+<Key  Id="31" primary="ㄙ"  tertiary="n"/>
+<Key  Id="32" primary="ㄩ"  tertiary="m"/>
+<Key  Id="33" primary="ㄝ"  tertiary="," quaternary="&lt;"/>
+<Key  Id="34" primary="ㄡ"  tertiary="." quaternary="&gt;"/>
+<Key  Id="35" primary="ㄥ"  tertiary="/" quaternary="?"/>
+</State> 
+<State modifier="Func">
+<Key  Id="2" payload="3b" primary="F1" accessibilityName="F1" />
+<Key  Id="3" payload="3c" primary="F2" accessibilityName="F2" />
+<Key  Id="4" payload="3d" primary="F3" accessibilityName="F3" />
+<Key  Id="5" payload="3e" primary="F4" accessibilityName="F4" />
+<Key  Id="6" payload="3f" primary="F5" accessibilityName="F5" />
+<Key  Id="7" payload="40" primary="F6" accessibilityName="F6" />
+<Key  Id="8" payload="41" primary="F7" accessibilityName="F7" />
+<Key  Id="9" payload="42" primary="F8" accessibilityName="F8" />
+<Key  Id="a" payload="43" primary="F9" accessibilityName="F9" />
+<Key  Id="b" payload="44" primary="F10" accessibilityName="F10" />
+<Key  Id="c" payload="57" primary="F11" accessibilityName="F11" />
+<Key  Id="d" payload="58" primary="F12" accessibilityName="F12" />
+</State>
+</KeyDefinitions>

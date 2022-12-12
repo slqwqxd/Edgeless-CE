@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<KeyDefinitions  baseDefinition="base" modifierType="Normal" payloadType="ScanCode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\..\KeyDefinitionSchema.xsd">
+<State modifier="Any">
+<Key  Id="a" primary="9"/>
+<Key  Id="b" primary="0"/>
+</State> 
+<State modifier="Shift">
+<Key  Id="a" primary="("/>
+<Key  Id="b" primary=")"/>
+</State> 
+<State modifier="Caps">
+<Key  Id="a" primary="9"/>
+<Key  Id="b" primary="0"/>
+</State> 
+<State modifier="Caps_Shift">
+<Key  Id="a" primary="("/>
+<Key  Id="b" primary=")"/>
+</State> 
+</KeyDefinitions>
