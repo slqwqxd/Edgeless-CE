@@ -21,6 +21,6 @@
 * [我](https://github.com/slqwqxd)
 
 ## 反馈bug
-(https://www.wjx.cn/vm/QAJUmGm.aspx) 填写问卷获取内测码
+[填写问卷获取内测码](https://www.wjx.cn/vm/QAJUmGm.aspx)
 获取内测码后
-点击链接加入群聊(https://jq.qq.com/?_wv=1027&k=mQLo2rRU)
+[加入群聊](https://jq.qq.com/?_wv=1027&k=mQLo2rRU)
