@@ -3,7 +3,7 @@
 
 ## 使用方法
 * 下载 Windows 11 21H2版 系统镜像并挂载
-* 克隆本仓库：`git clone https://github.com/slqwqxd/Edgeless-Ce/Edgeless-Ce.git`
+* 克隆本仓库：`https://github.com/slqwqxd/Edgeless-Ce.git`
 * 运行 `WimBuilder.cmd`，在 `准备` 页面中选择挂载的系统镜像，并选择一个合适的映像版本；在 `工程` 页面中选择 `Edgeless-CE` ，然后在 `构建` 页面中开始构建
 
 ## 一键构建脚本
