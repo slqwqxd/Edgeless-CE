@@ -1,5 +1,6 @@
 # Edgeless-CE Wimbuilder2 仓库
 此仓库为 Edgeless-CE 使用的 [Wimbuilder2](https://github.com/slorelee/wimbuilder2) 仓库，你可以使用此仓库的内容自行构建一个使用MPL2.0协议开源版本的 Edgeless-CE
+**注意:当您使用此库时即代表您同意MPL2.0协议**
 
 ## 使用方法
 * 下载 Windows 11 21H2版 系统镜像并挂载
@@ -18,3 +19,8 @@
 * [九霜](https://github.com/littlepai114514)
 * [凉城](https://github.com/lcdl6)
 * [我](https://github.com/slqwqxd)
+
+## 反馈bug
+(https://www.wjx.cn/vm/QAJUmGm.aspx) 填写问卷获取内测码
+获取内测码后
+点击链接加入群聊(https://jq.qq.com/?_wv=1027&k=mQLo2rRU)
