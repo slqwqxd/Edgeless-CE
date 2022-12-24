@@ -1,0 +1,165 @@
+; Installation inf for the Apple USB driver 
+; 
+; usbmux64.inf
+;
+; (c) Copyright 2010 Apple, Inc.
+;
+; 
+; 
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=USB
+ClassGUID={36fc9e60-c465-11cf-8056-444553540000} 
+Provider=%AAPL%
+DriverVer=05/19/2017,6.0.9999.69
+CatalogFile=USBAAPL64.CAT
+ 
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Manufacturer]
+%MfgName%=Apple, NTamd64
+
+
+[Apple.NTamd64]
+;
+; iPod
+;
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1261
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1262
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1263
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1265
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1266
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1267
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1302
+%iPod.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1303
+;
+;
+; iOS devices
+;
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1290
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1291
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1292
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1293
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1294
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1297
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1299
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_129a
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_129c
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_129d
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_129e
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_129f
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a0
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a1
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a2
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a3
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a4
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a5
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a6
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a7
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a8
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12a9
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12aa
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12ab
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12ac
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12af&MI_00
+%iPhone.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_12af
+
+
+;
+; iBoot
+;
+%iBoot.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1280
+%iBoot.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1281
+%iBoot.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1282
+%iBoot.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1283
+;
+; iDFU
+;
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1220
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1221
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1222
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1223
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1224
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1225
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1226
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1227
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1228
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1229
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1230
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1231
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1232
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1233
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1234
+
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1240
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1241
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1242
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1243
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1245
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1246
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1247
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1248
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1249
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_124A
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1250
+
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1700
+%iDFU.DeviceDesc%=USBAAPL64.Dev, USB\VID_05ac&PID_1701
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+USBAAPL64.Files.Ext.ntamd64 = 10,System32\Drivers
+USBAAPLRC64.Files.Ext.ntamd64 = 10,System32
+
+
+[USBAAPL64.Dev.ntamd64]
+CopyFiles=USBAAPL64.Files.Ext.ntamd64, USBAAPLRC64.Files.Ext.ntamd64
+
+[USBAAPL64.Dev.ntamd64.HW]
+AddReg=USBAAPL64.AddReg
+
+[USBAAPL64.Dev.ntamd64.Services]
+Addservice = USBAAPL64, 0x00000002, USBAAPL64.AddService.NTamd64
+
+[USBAAPL64.AddService.NTamd64]
+DisplayName    = %USBAAPL64.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\usbaapl64.sys
+LoadOrderGroup = Base
+
+[USBAAPL64.Files.Ext.ntamd64]
+usbaapl64.sys
+
+[USBAAPLRC64.Files.Ext.ntamd64]
+usbaaplrc.dll
+
+[SourceDisksNames.amd64]
+1 = %DiskId1%, usbaapl64.tag,,
+
+[USBAAPL64.AddReg]
+HKR,,FriendlyName,,%iPhone.DeviceDesc%
+
+[SourceDisksFiles]
+usbaapl64.sys  = 1,,
+usbaaplrc.dll = 1,,
+
+;---------------------------------------------------------------;
+
+[Strings]
+AAPL="Apple, Inc."
+MfgName="Apple, Inc."
+iPhone.DeviceDesc="Apple Mobile Device USB Driver"
+iBoot.DeviceDesc="Apple Recovery (iBoot) USB Driver"
+iPod.DeviceDesc="Apple iPod USB Driver"
+iDFU.DeviceDesc="Apple Recovery (DFU) USB Driver"
+
+USBAAPL64.SvcDesc="Apple Mobile USB Driver"
+
+DiskId1= "Mobile Device Setup Disk"
+
